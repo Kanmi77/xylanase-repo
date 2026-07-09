@@ -1,24 +1,107 @@
+# Full Snakemake workflow for xylanase structural thermostability assessment
+#
+# This workflow runs the complete test-mode computational pipeline:
+# UniProt curation, sequence analysis, structural feature extraction,
+# FoldX stability screening, docking, machine learning, and integration.
+
 configfile: "config/workflow_config.yaml"
+
+
+# ---------------------------------------------------------------------
+# Output targets from configuration
+# ---------------------------------------------------------------------
+
+CURATED_MASTER = config["outputs"]["curated_master"]
+SEQUENCE_FEATURES = config["outputs"]["sequence_features"]
+CONSERVATION_SUMMARY = config["outputs"]["conservation_summary"]
+STRUCTURE_FEATURES = config["outputs"]["structure_features"]
+FOLDX_WT = config["outputs"]["foldx_wt"]
+FOLDX_MUTATIONS = config["outputs"]["foldx_mutations"]
+DOCKING_SUMMARY = config["outputs"]["docking_summary"]
+ML_SUMMARY = config["outputs"]["ml_summary"]
+INTEGRATION_SCORES = config["outputs"]["integration_scores"]
+FINAL_REPORT = config["outputs"]["final_report"]
+
+
+# ---------------------------------------------------------------------
+# Workflow groups
+# ---------------------------------------------------------------------
+
+ORGANISM_GROUPS = ["bacterial", "fungal"]
+GH_FAMILIES = config["enzyme_search"]["required_families"]
+
+ANALYSIS_GROUPS = [
+    f"{organism}_{family}"
+    for organism in ORGANISM_GROUPS
+    for family in GH_FAMILIES
+]
+
+
+# ---------------------------------------------------------------------
+# Final workflow target
+# ---------------------------------------------------------------------
 
 rule all:
     input:
-        "results/workflow/00_inputs/input_table_manifest.csv",
-        "results/workflow/01_sequence/sequence_analysis_summary.csv",
-        "results/workflow/02_structure/structure_analysis_summary.csv",
-        "results/workflow/03_foldx/foldx_analysis_summary.csv",
-        "results/workflow/04_docking/docking_analysis_summary.csv",
-        "results/workflow/05_ml/machine_learning_analysis_summary.csv",
-        "results/workflow/06_md/molecular_dynamics_analysis_summary.csv",
-        "results/workflow/07_integration/integration_analysis_summary.csv",
-        "results/workflow/08_report/full_analysis_workflow_report.md"
+        CURATED_MASTER,
+        SEQUENCE_FEATURES,
+        directory("results/02_sequence/group_fastas"),
+        directory("results/02_sequence/alignments"),
+        directory("results/02_sequence/trees"),
+        CONSERVATION_SUMMARY,
+        STRUCTURE_FEATURES,
+        FOLDX_WT,
+        FOLDX_MUTATIONS,
+        DOCKING_SUMMARY,
+        ML_SUMMARY,
+        INTEGRATION_SCORES,
+        FINAL_REPORT
 
 
-include: "rules/00_inputs.smk"
-include: "rules/01_sequence.smk"
-include: "rules/02_structure.smk"
-include: "rules/03_foldx.smk"
-include: "rules/04_docking.smk"
-include: "rules/05_ml.smk"
-include: "rules/06_md.smk"
-include: "rules/07_integration.smk"
-include: "rules/08_report.smk"
+# ---------------------------------------------------------------------
+# Stage 1: data curation
+# ---------------------------------------------------------------------
+
+include: "rules/01_curation.smk"
+
+
+# ---------------------------------------------------------------------
+# Stage 2: sequence analysis
+# ---------------------------------------------------------------------
+
+include: "rules/02_sequence.smk"
+
+
+# ---------------------------------------------------------------------
+# Stage 3: structural feature extraction
+# ---------------------------------------------------------------------
+
+include: "rules/03_structure.smk"
+
+
+# ---------------------------------------------------------------------
+# Stage 4: FoldX stability and mutation screening
+# ---------------------------------------------------------------------
+
+include: "rules/04_foldx.smk"
+
+
+# ---------------------------------------------------------------------
+# Stage 5: docking
+# ---------------------------------------------------------------------
+
+include: "rules/05_docking.smk"
+
+
+# ---------------------------------------------------------------------
+# Stage 6: machine learning
+# ---------------------------------------------------------------------
+
+include: "rules/06_ml.smk"
+
+
+# ---------------------------------------------------------------------
+# Stage 7: integrated candidate ranking and report
+# ---------------------------------------------------------------------
+
+include: "rules/08_integration.smk"
