@@ -1,0 +1,5 @@
+group,sequences,alignment_length,conserved_positions_90,conserved_percent,conservation_threshold,source_alignment
+bacterial_GH10,211,4000,19,0.475,0.9,results/02_sequence/alignments/bacterial_GH10_aligned.fasta
+bacterial_GH11,98,1769,39,2.2046353872244207,0.9,results/02_sequence/alignments/bacterial_GH11_aligned.fasta
+fungal_GH10,137,2692,0,0.0,0.9,results/02_sequence/alignments/fungal_GH10_aligned.fasta
+fungal_GH11,131,1168,35,2.996575342465753,0.9,results/02_sequence/alignments/fungal_GH11_aligned.fasta

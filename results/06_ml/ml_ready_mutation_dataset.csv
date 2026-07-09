@@ -1,0 +1,13 @@
+uniprot_accession,organism_type,gh_family,pdb_id,foldx_mutation_code,wild_type,chain,residue_number,mutant,foldx_ddg,buildmodel_exit_code,status,work_dir,mean_vina_affinity,best_vina_affinity,docking_jobs
+A0A0S2I9J6,bacterial,GH10,9UPA,PA1A,P,A,1,A,4.0,0,ready,results/04_foldx/work/mutation_screen/A0A0S2I9J6_9UPA,-7.7955,-8.53,2
+A0A0S2I9J6,bacterial,GH10,9UPA,AA353G,A,A,353,G,-0.0871928,0,ready,results/04_foldx/work/mutation_screen/A0A0S2I9J6_9UPA,-7.7715000000000005,-8.537,2
+A0A0S2I9J6,bacterial,GH10,9UPA,AB353V,A,B,353,V,-0.111008,0,ready,results/04_foldx/work/mutation_screen/A0A0S2I9J6_9UPA,-7.506500000000001,-8.528,2
+A0A0M9BNX9,bacterial,GH11,7KV0,HA26A,H,A,26,A,4.0,0,ready,results/04_foldx/work/mutation_screen/A0A0M9BNX9_7KV0,-8.3055,-9.018,2
+A0A0M9BNX9,bacterial,GH11,7KV0,HB26G,H,B,26,G,2.07149,0,ready,results/04_foldx/work/mutation_screen/A0A0M9BNX9_7KV0,-8.290000000000001,-9.031,2
+A0A0M9BNX9,bacterial,GH11,7KV0,WB211V,W,B,211,V,-0.0172052,0,ready,results/04_foldx/work/mutation_screen/A0A0M9BNX9_7KV0,-8.304499999999999,-9.165,2
+A0A1L9WG58,fungal,GH10,6Q8M,VA23A,V,A,23,A,4.0,0,ready,results/04_foldx/work/mutation_screen/A0A1L9WG58_6Q8M,-7.0120000000000005,-7.509,2
+A0A1L9WG58,fungal,GH10,6Q8M,VA343G,V,A,343,G,1.04355,0,ready,results/04_foldx/work/mutation_screen/A0A1L9WG58_6Q8M,-6.904,-7.288,2
+A0A1L9WG58,fungal,GH10,6Q8M,VB343S,V,B,343,S,1.11226,0,ready,results/04_foldx/work/mutation_screen/A0A1L9WG58_6Q8M,-6.9975000000000005,-7.514,2
+A0A2T4BZZ5,fungal,GH11,8YJI,TA2A,T,A,2,A,4.0,0,ready,results/04_foldx/work/mutation_screen/A0A2T4BZZ5_8YJI,-6.833,-7.488,2
+A0A2T4BZZ5,fungal,GH11,8YJI,FA93G,F,A,93,G,0.515756,0,ready,results/04_foldx/work/mutation_screen/A0A2T4BZZ5_8YJI,-6.8345,-7.497,2
+A0A2T4BZZ5,fungal,GH11,8YJI,SA190V,S,A,190,V,1.91406,0,ready,results/04_foldx/work/mutation_screen/A0A2T4BZZ5_8YJI,-6.7485,-7.493,2

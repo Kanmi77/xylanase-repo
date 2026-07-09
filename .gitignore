@@ -47,3 +47,24 @@ rotabase.txt
 *.rsr
 *.sch
 *.V999*
+.snakemake/
+logs/snakemake/*.log
+
+# Snakemake/runtime files
+.snakemake/
+logs/
+
+# Downloaded/generated raw data
+data/raw/
+data/structures/
+
+# Heavy FoldX generated files
+results/04_foldx/work/
+results/04_foldx/repaired_structures/
+
+# Heavy docking generated files
+results/05_docking/receptors/
+results/05_docking/vina_outputs/
+
+# Temporary files
+None

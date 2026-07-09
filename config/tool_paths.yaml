@@ -1,0 +1,7 @@
+tools:
+  mafft: mafft
+  fasttree: FastTree
+  foldx: FoldX
+  vina: vina
+  gromacs: gmx
+  modeller_python: python

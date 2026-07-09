@@ -1,0 +1,24 @@
+configfile: "config/workflow_config.yaml"
+
+rule all:
+    input:
+        "results/workflow/00_inputs/input_table_manifest.csv",
+        "results/workflow/01_sequence/sequence_analysis_summary.csv",
+        "results/workflow/02_structure/structure_analysis_summary.csv",
+        "results/workflow/03_foldx/foldx_analysis_summary.csv",
+        "results/workflow/04_docking/docking_analysis_summary.csv",
+        "results/workflow/05_ml/machine_learning_analysis_summary.csv",
+        "results/workflow/06_md/molecular_dynamics_analysis_summary.csv",
+        "results/workflow/07_integration/integration_analysis_summary.csv",
+        "results/workflow/08_report/full_analysis_workflow_report.md"
+
+
+include: "rules/00_inputs.smk"
+include: "rules/01_sequence.smk"
+include: "rules/02_structure.smk"
+include: "rules/03_foldx.smk"
+include: "rules/04_docking.smk"
+include: "rules/05_ml.smk"
+include: "rules/06_md.smk"
+include: "rules/07_integration.smk"
+include: "rules/08_report.smk"

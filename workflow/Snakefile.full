@@ -1,0 +1,38 @@
+configfile: "config/workflow_config.yaml"
+
+CURATED_MASTER = config["outputs"]["curated_master"]
+SEQUENCE_FEATURES = config["outputs"]["sequence_features"]
+CONSERVATION_SUMMARY = config["outputs"]["conservation_summary"]
+STRUCTURE_FEATURES = config["outputs"]["structure_features"]
+FOLDX_WT = config["outputs"]["foldx_wt"]
+FOLDX_MUTATIONS = config["outputs"]["foldx_mutations"]
+DOCKING_SUMMARY = config["outputs"]["docking_summary"]
+ML_SUMMARY = config["outputs"]["ml_summary"]
+INTEGRATION_SCORES = config["outputs"]["integration_scores"]
+FINAL_REPORT = config["outputs"]["final_report"]
+
+
+rule all:
+    input:
+        CURATED_MASTER,
+        SEQUENCE_FEATURES,
+        "results/02_sequence/group_fastas",
+        "results/02_sequence/alignments",
+        "results/02_sequence/trees",
+        CONSERVATION_SUMMARY,
+        STRUCTURE_FEATURES,
+        FOLDX_WT,
+        FOLDX_MUTATIONS,
+        DOCKING_SUMMARY,
+        ML_SUMMARY,
+        INTEGRATION_SCORES,
+        FINAL_REPORT
+
+
+include: "rules/01_curation.smk"
+include: "rules/02_sequence.smk"
+include: "rules/03_structure.smk"
+include: "rules/04_foldx.smk"
+include: "rules/05_docking.smk"
+include: "rules/06_ml.smk"
+include: "rules/08_integration.smk"

@@ -1,0 +1,11 @@
+task,model,feature,importance
+mutation_ddg_regression,random_forest,residue_number,0.7657140495287227
+mutation_ddg_regression,random_forest,buildmodel_exit_code,0.0
+mutation_ddg_regression,random_forest,mean_vina_affinity,0.14098718929922346
+mutation_ddg_regression,random_forest,best_vina_affinity,0.09329876117205387
+mutation_ddg_regression,random_forest,docking_jobs,0.0
+docking_affinity_regression,random_forest,residue_number,0.08299370021793925
+docking_affinity_regression,random_forest,foldx_ddg,0.10779763707014221
+docking_affinity_regression,random_forest,buildmodel_exit_code,0.0
+docking_affinity_regression,random_forest,best_vina_affinity,0.8092086627119186
+docking_affinity_regression,random_forest,docking_jobs,0.0

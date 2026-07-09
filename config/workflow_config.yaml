@@ -1,0 +1,87 @@
+project:
+  name: enzyme_thermostability_workflow
+  enzyme_name: xylanase
+  enzyme_key: xylanase
+
+enzyme_search:
+  uniprot_query: '(xylanase) AND (reviewed:true OR reviewed:false)'
+  required_families:
+    - GH10
+    - GH11
+  family_keyword_column: xref_cazy
+  organism_groups:
+    bacterial:
+      taxonomy_terms:
+        - bacteria
+    fungal:
+      taxonomy_terms:
+        - fungi
+        - fungal
+
+curation:
+  min_sequence_length: 100
+  max_sequence_length: 1200
+  remove_fragments: true
+  require_sequence: true
+  keep_unmatched_organisms: false
+
+sequence_analysis:
+  alignment_threads: 4
+  conservation_threshold: 0.90
+
+structure_analysis:
+  use_pdb: true
+  use_modeller: true
+  reference_structures_dir: data/reference_structures
+  model_output_dir: data/structures/modeller
+
+foldx:
+  enabled: true
+  foldx_binary: /home/ubuntu/xylanase-thesis/foldx/bin/FoldX
+  rotabase: /home/ubuntu/xylanase-thesis/foldx/bin/rotabase.txt
+  work_dir: results/04_foldx/work
+  repaired_dir: results/04_foldx/repaired_structures
+  test_mode: true
+  max_structures_per_group: 1
+  mutations_per_structure: 3
+  mutation_neutral_zone:
+    lower: -0.5
+    upper: 0.5
+
+docking:
+  enabled: true
+  vina_binary: /usr/bin/vina
+  receptor_tool: /home/ubuntu/miniconda3/bin/mk_prepare_receptor.py
+  work_dir: results/05_docking/work
+  receptor_dir: results/05_docking/receptors
+  output_dir: results/05_docking/vina_outputs
+  exhaustiveness: 8
+  num_modes: 9
+  energy_range: 3
+  box_size: 28
+  test_mode: true
+  max_mutations: 12
+  ligands:
+    xylobiose: /home/ubuntu/xylanase-thesis/docking/ligands/xylobiose.pdbqt
+    xylotriose: /home/ubuntu/xylanase-thesis/docking/ligands/xylotriose.pdbqt
+
+machine_learning:
+  enabled: true
+  random_seed: 42
+  grouped_cv_folds: 5
+
+molecular_dynamics:
+  enabled: false
+  md_summary_input_dir: results/07_md/raw_summaries
+
+outputs:
+  curated_master: results/01_curation/curated_master.csv
+  sequence_features: results/02_sequence/sequence_features.csv
+  conservation_summary: results/02_sequence/conservation_summary.csv
+  structure_features: results/03_structure/structure_features.csv
+  foldx_wt: results/04_foldx/foldx_wt_stability.csv
+  foldx_mutations: results/04_foldx/foldx_mutations.csv
+  docking_summary: results/05_docking/docking_summary.csv
+  ml_summary: results/06_ml/ml_summary.csv
+  integration_scores: results/08_integration/integration_scores.csv
+  final_report: results/08_integration/final_workflow_report.md
