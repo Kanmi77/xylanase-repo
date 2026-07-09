@@ -3832,8 +3832,8 @@ results/reports/tmalign_best_reference_by_organism.csv
 results/reports/tmalign_best_reference_by_organism_gh.csv
 results/reports/tmalign_strong_models_tm095_rmsd1.csv
 results/reports/tmalign_top20_by_low_rmsd_high_tm.csv
-scripts/08_md/09_make_md_24_simulation_summary_with_dssp.py
-scripts/08_md/10_make_md_24_summary_standalone_mkdssp.py
+scripts/08_md/dssp_summary.py
+scripts/08_md/mkdssp_summary.py
 scripts/08_md/compare_previous_pdb_vs_current_md.py
 scripts/08_md/compare_previous_pdb_vs_current_md.py
 scripts/08_md/mdp/em.mdp
