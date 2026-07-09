@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+.DS_Store
+
+# Conda / environment caches
+.conda/
+.env/
+.venv/
+
+# Large molecular dynamics files
+*.xtc
+*.trr
+*.edr
+*.cpt
+*.tpr
+*.gro
+*.xvg
+*.xpm
+*.pdb_prev
+mdout.mdp
+
+# Large structure and docking intermediates
+*.pdbqt
+*.dlg
+*.map
+*.mol2
+*.sdf
+
+# FoldX licensed executable/database
+foldx
+foldx*
+FoldX
+FoldX*
+rotabase.txt
+
+# MODELLER temporary files
+*.D000*
+*.B999*
+*.ini
+*.rsr
+*.sch
+*.V999*

@@ -1,0 +1,14 @@
+thesis_section	repo_stage	expected_final_outputs
+Data acquisition and curation	01_data_curation	master curated dataset; GH10/GH11 split files; BRENDA/external thermal labels
+Physicochemical analysis	02_sequence_phylogeny	ProtParam features; protein size table; secondary-structure fractions
+FASTA/MSA/Phylogeny	02_sequence_phylogeny	group FASTA; MAFFT alignments; FastTree trees; tree summaries
+Conservation analysis	02_sequence_phylogeny	conserved positions; thermal contrast positions; mapped residue lists
+Experimental/PDB structures	03_structure_analysis	PDB inventory; chosen chain manifest; downloaded coordinates
+MODELLER structures	03_structure_analysis	MODELLER model manifest; TM-align validation; 631 model records
+Structural features	03_structure_analysis	structural feature table; PDB/MODELLER source-stratified features
+FoldX WT stability	04_foldx	RepairPDB outputs; Stability outputs; WT energy per residue
+FoldX mutation screening	05_mutation_screening	MODELLER 2250 mutation rows; PDB 704 mutation rows
+Docking	06_docking	WT/mutant docking scores; xylobiose/xylotriose deltas; retention tables
+Machine learning	07_machine_learning	WT regression; mutation regression; mutation classification; feature importance
+Molecular dynamics	08_molecular_dynamics	333K/373K WT-mutant summaries; RMSD/RMSF/Rg/Hbond/DSSP tables
+Integration/ranking	09_integration	PDB top candidates; homology top candidates; final source-stratified candidate table

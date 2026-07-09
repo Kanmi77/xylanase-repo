@@ -1,0 +1,13 @@
+metric,value
+included_sequences,692.0
+excluded_sequences,0.0
+unique_uniprot_accessions,692.0
+mean_clean_sequence_length,457.094
+median_clean_sequence_length,370.0
+min_clean_sequence_length,45.0
+max_clean_sequence_length,2457.0
+organism_type_bacterial,493.0
+organism_type_fungal,192.0
+organism_type_archaea,7.0
+gh_family_GH10,439.0
+gh_family_GH11,253.0

@@ -1,310 +1,121 @@
-# xylanase-repo
-Computational workflow for in silico thermostability prediction of GH10 and GH11 xylanases. Integrates sequence analysis, structural modelling, FoldX mutagenesis, docking, machine learning, and molecular dynamics validation. Includes Snakemake workflow, Python scripts, and result visualisations.
-# Xylanase Thermostability Prediction Pipeline
+# Xylanase Thermostability Assessment Repository
 
-Pipeline for screening and prioritising thermostabilising mutations in bacterial and fungal GH10 and GH11 xylanases through integrated bioinformatics and machine learning.
+This repository contains the curated scripts, result tables, manifests and documentation for the thesis:
 
-This pipeline was developed as part of a Master's thesis:
+**In Silico Structural Thermostability Assessment of Bacterial and Fungal Thermostable Xylanases through Bioinformatics and Machine Learning Predictions**
 
-> Bada, K. (2026). *In Silico Structural Thermostability Assessment of Bacterial and Fungal Thermostable Xylanases through Bioinformatics and Machine Learning Predictions*. Technische Hochschule Deggendorf.
+The repository is organised as a cleaned thesis archive. It contains the scripts and final/supporting result files required to describe, reproduce and inspect the computational workflow. Large intermediate files such as molecular dynamics trajectories, docking intermediates, FoldX working folders and full model-building outputs are not included.
 
 ---
 
-## Overview
+## Repository structure
 
-This Snakemake pipeline processes GH10 and GH11 xylanase sequences to:
-
-- Curate sequence and structural data from UniProt, CAZy, and BRENDA
-- Perform physicochemical characterisation and phylogenetic analysis
-- Identify conserved motifs and thermal-contrast positions
-- Build homology models using MODELLER
-- Predict stability effects of mutations using FoldX
-- Assess substrate binding retention via molecular docking (AutoDock Vina)
-- Train machine learning models for stability prediction
-- Validate top candidates through molecular dynamics (GROMACS)
-- Integrate all evidence into a source-stratified candidate ranking
-
+| Folder | Description |
+|---|---|
+| `data/` | Curated and processed input datasets used in the thesis workflow |
+| `docs/methods/` | Method notes and workflow documentation |
+| `docs/manifests/` | File manifests with paths, checksums and descriptions |
+| `results/` | Final and supporting result tables used for thesis reporting |
+| `scripts/` | Thesis-aligned workflow scripts grouped by method stage |
 
 ---
 
+## Script organisation
 
-## System Requirements
+Each folder in `scripts/` corresponds to one major thesis workflow stage.  
+Each stage contains one public runner script named `run_*.py` and the supporting scripts used within that stage.
 
-| Requirement | Specification |
-| :--- | :--- |
-| **OS** | Linux (Ubuntu 22.04 LTS) |
-| **RAM** | Minimum 32 GB (64 GB recommended for MD) |
-| **Storage** | 50 GB free disk space |
-| **Conda** | Miniconda or Anaconda |
-| **GPU** | Optional but recommended for MD simulations |
-
-## Installation
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/your-username/xylanase-repo
-cd xylanase-repo
-
-# 2. Create conda environments
-cd environments
-conda env create -f xylanase.yml
-conda env create -f foldx.yml
-conda env create -f gromacs.yml
-cd ..
-
-# 3. Install external tools manually
-# FoldX 4.0: https://foldxsuite.crg.eu/
-# GROMACS 2025.4: https://manual.gromacs.org/
-# MODELLER 10.8: https://salilab.org/modeller/
-# AutoDock Vina 1.2.5: pip install vina
-
-Usage
-Input Preparation
-1. Proteomes to be screened
-The proteomes to be screened by the pipeline should be in .faa or .fasta format.
-
-The proteomes directory should be located in data/proteomes/:
-
-bash
-cd ~/xylanase-repo
-mkdir -p data/proteomes/
-cd data/proteomes/
-
-# Place your proteomic data here
-
-cd ~/xylanase-repo
-2. GH families
-The pipeline is designed for GH10 and GH11 xylanases. A GH_families.txt file should be created with the desired GH families (one per line). Subfamily level can be used.
-
-## Input Files
-
-Before running the pipeline, prepare the required input files.
-
-### GH Family List
-
-Create a list of glycoside hydrolase (GH) families to analyse.
-
-```bash
-cd data
-touch GH_families.txt
-
-echo "GH10" >> GH_families.txt
-echo "GH11" >> GH_families.txt
-```
-
-**Example**
-
-```text
-GH10
-GH11
-```
+| Stage folder | Public runner | Thesis workflow stage |
+|---|---|---|
+| `scripts/01_data_curation/` | `run_data_curation.py` | Data acquisition, UniProt/CAZy/BRENDA/PDB/RefSeq curation |
+| `scripts/02_sequence_phylogeny/` | `run_sequence_phylogeny.py` | Sequence features, alignment, phylogeny and conservation |
+| `scripts/03_structure_analysis/` | `run_structure_analysis.py` | PDB/MODELLER structural features and TM-align validation |
+| `scripts/04_foldx/` | `run_foldx_analysis.py` | FoldX wild-type stability and mutation ΔΔG analysis |
+| `scripts/05_mutation_screening/` | `run_mutation_screening.py` | Mutation panel preparation and parsing |
+| `scripts/06_docking/` | `run_docking_analysis.py` | AutoDock Vina docking preparation, parsing and WT-mutant comparison |
+| `scripts/07_machine_learning/` | `run_machine_learning.py` | Experimental-label machine learning and feature importance |
+| `scripts/08_molecular_dynamics/` | `run_molecular_dynamics.py` | MD metric extraction and WT-mutant summary tables |
+| `scripts/09_integration/` | `run_integration_and_ranking.py` | Integrated candidate scoring and final ranking |
 
 ---
 
-### Reference Structures
+## Main result folders
 
-Reference crystal structures are required for TM-align validation of predicted protein structures.
-
-Store PDB files under:
-
-```text
-data/
-└── reference_structures/
-    ├── GH10/
-    │   ├── 1O8S.pdb
-    │   └── 1VBR.pdb
-    └── GH11/
-        ├── 1VBU.pdb
-        └── 3NIY.pdb
-```
-
-Create the directories:
-
-```bash
-mkdir -p data/reference_structures/GH10
-mkdir -p data/reference_structures/GH11
-```
-
-> **Note**
-> All reference structures must be in **PDB (.pdb)** format.
+| Folder | Contents |
+|---|---|
+| `results/data_curation/` | Dataset preparation outputs |
+| `results/sequence_phylogeny/` | Sequence, conservation and thermal-label outputs |
+| `results/structure_analysis/` | Structural feature and TM-align outputs |
+| `results/foldx/` | FoldX wild-type and mutation summaries |
+| `results/mutation_screening/` | Mutation candidate outputs |
+| `results/docking/` | Docking score and WT-mutant comparison outputs |
+| `results/machine_learning/` | ML datasets, model reports and feature-importance outputs |
+| `results/molecular_dynamics/` | MD summary metrics and comparison tables |
+| `results/integration/` | Integrated candidate scoring and final ranking tables |
 
 ---
 
-### Docking Ligands
+## Manifests
 
-By default, the pipeline docks **xylobiose** and **xylotriose**.
-
-Create the ligand directory:
-
-```bash
-mkdir -p results/docking/ligands
-```
-
-Place ligand files such as:
-
-```text
-results/
-└── docking/
-    └── ligands/
-        ├── xylobiose.pdbqt
-        └── xylotriose.pdbqt
-```
-
-> **Note**
-> To use different ligands, edit:
->
-> `scripts/docking/run_docking.sh`
+| Manifest | Description |
+|---|---|
+| `docs/manifests/scripts_manifest.tsv` | List of included scripts with workflow stage, role, path and SHA256 checksum |
+| `docs/manifests/results_manifest.tsv` | List of included result files with path, size and SHA256 checksum |
+| `docs/manifests/pdb_only_foldx_docking_manifest.txt` | PDB-only FoldX and docking supporting file list |
+| `docs/manifests/pdb_reference_md_methodology_manifest.txt` | PDB reference and molecular dynamics methodology file list |
 
 ---
 
-### Thermal Labels (Optional)
+## Workflow summary
 
-Experimental temperature labels from BRENDA can be included for machine learning.
+The thesis workflow contains the following computational stages:
 
-```bash
-mkdir -p data/thermal_labels
-```
-
-Expected file:
-
-```text
-data/thermal_labels/brenda_temperature.csv
-```
-
----
-
-# Running the Pipeline
-
-Activate the Conda environment.
-
-```bash
-conda activate xylanase
-```
-
-### Dry Run
-
-Verify the workflow before execution.
-
-```bash
-snakemake --cores 8 --dry-run
-```
-
-### Run Entire Pipeline
-
-```bash
-snakemake --cores 8
-```
-
-### Run Individual Modules
-
-| Module | Command |
-|---------|---------|
-| Sequence analysis | `snakemake results/tables/physicochemical_summary.csv` |
-| FoldX mutation screening | `snakemake results/tables/foldx_mutations.csv` |
-| Machine learning | `snakemake results/tables/ml_performance.csv` |
-| Final candidate ranking | `snakemake results/tables/final_candidates.csv` |
+1. Data acquisition and curation of GH10/GH11 bacterial and fungal xylanases.
+2. Sequence feature extraction, multiple sequence alignment and phylogenetic analysis.
+3. PDB and MODELLER structural-feature extraction with TM-align validation.
+4. FoldX wild-type stability and mutation ΔΔG analysis.
+5. Mutation candidate preparation and screening.
+6. AutoDock Vina docking of wild-type and mutant structures with xylo-oligosaccharide ligands.
+7. Machine-learning prediction using experimental thermal labels and sequence/structure features.
+8. Molecular dynamics validation of selected wild-type and mutant systems.
+9. Integrated candidate scoring and final thermostability/function-retention ranking.
 
 ---
 
-# Output
+## Excluded files
 
-The pipeline generates the following outputs.
+The following files were intentionally excluded from the public repository because they are large, intermediate, software-generated or not required for thesis inspection:
 
-| Directory | Description |
-|------------|-------------|
-| `output_files/` | Final integrated results and candidate rankings |
-| `results/tables/` | Summary tables generated throughout the workflow |
-| `results/figures/` | Publication-quality figures |
-| `results/foldx/` | FoldX repair and mutation results |
-| `results/docking/` | Docking scores, receptors and ligand files |
-| `results/md/` | Molecular dynamics trajectories and analyses |
-
-> **Note**
-> Docking results can be visualised using **PyMOL**, **ChimeraX**, or other molecular visualization software.
+- GROMACS trajectories and binary simulation files: `.xtc`, `.trr`, `.tpr`, `.edr`, `.cpt`, `.gro`
+- AutoDock/Vina intermediate receptor and ligand files: `.pdbqt`, docking logs and temporary folders
+- FoldX executables, databases and working directories
+- MODELLER temporary output folders and large model-generation intermediates
+- Raw exploratory branches not used in the final thesis reporting
 
 ---
 
-# Customisation
+## Reproducibility notes
 
-## Candidate Filtering
+The repository provides a thesis-level reproducibility archive rather than a single-command full rerun of every computationally expensive step. Some stages require external tools and local installations, including:
 
-Edit:
+- Python
+- pandas, NumPy and scikit-learn
+- Biopython
+- MAFFT
+- FastTree
+- MODELLER
+- FoldX4
+- AutoDock Vina
+- GROMACS
+- TM-align
+- FreeSASA
 
-```text
-scripts/filtering/filter_candidates.py
-```
-
-| Parameter | Default | Description |
-|-----------|---------|-------------|
-| `foldx_threshold` | `0.0` | Maximum ΔΔG allowed |
-| `docking_threshold` | `0.0` | Maximum docking score change |
-| `rmsd_threshold` | `1.0` | RMSD cutoff |
-| `tm_score_threshold` | `0.75` | Minimum TM-score |
-| `residue_length_threshold` | `800` | Maximum protein length |
-
----
-
-## Docking Parameters
-
-Edit:
-
-```text
-scripts/docking/run_docking.sh
-```
-
-| Parameter | Default |
-|-----------|---------|
-| `EXHAUST` | `32` |
-| `ENERGY_RANGE` | `4` |
-| `NUM_MODES` | `10` |
+The included manifests provide file paths and SHA256 checksums for traceability of the archived scripts and result tables.
 
 ---
 
-## Molecular Dynamics Parameters
+## Author
 
-Edit:
-
-```text
-scripts/md/run_gromacs.sh
-```
-
-| Parameter | Default |
-|-----------|---------|
-| `SIMULATION_TIME` | `10000 ps` |
-| `TEMPERATURE` | `373 K` |
-| `PRESSURE` | `1.0 bar` |
-
----
-
-# Reproducibility
-
-Clone the repository.
-
-```bash
-git clone https://github.com/your-username/xylanase-repo.git
-cd xylanase-repo
-```
-
-Create the environments.
-
-```bash
-cd environments
-
-conda env create -f xylanase.yml
-conda env create -f foldx.yml
-conda env create -f gromacs.yml
-
-cd ..
-```
-
-Prepare the required input files as described above.
-
-Run the workflow.
-
-```bash
-conda activate xylanase
-snakemake --cores 8
-```
-
----
-
+Kamaldeen Olasunkanmi Bada  
+Master's Thesis, Life Science Informatics  
+Deggendorf Institute of Technology
