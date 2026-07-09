@@ -45,9 +45,9 @@ rule all:
     input:
         CURATED_MASTER,
         SEQUENCE_FEATURES,
-        directory("results/02_sequence/group_fastas"),
-        directory("results/02_sequence/alignments"),
-        directory("results/02_sequence/trees"),
+        "results/02_sequence/group_fastas",
+        "results/02_sequence/alignments",
+        "results/02_sequence/trees",
         CONSERVATION_SUMMARY,
         STRUCTURE_FEATURES,
         FOLDX_WT,
