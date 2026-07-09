@@ -1,4 +1,4 @@
-rule build_structure_inventory:
+rule prepare_structure_inventory:
     input:
         master=config["outputs"]["curated_master"]
     output:
@@ -15,7 +15,7 @@ rule build_structure_inventory:
         """
 
 
-rule compute_structure_features:
+rule calculate_structure_features:
     input:
         inventory="results/03_structure/structure_inventory.csv"
     output:

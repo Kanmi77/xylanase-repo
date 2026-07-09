@@ -1,4 +1,4 @@
-rule run_foldx_wt_stability:
+rule calculate_foldx_wt_stability:
     input:
         structure_features=config["outputs"]["structure_features"]
     output:
@@ -15,7 +15,7 @@ rule run_foldx_wt_stability:
         """
 
 
-rule run_foldx_mutation_screen:
+rule screen_foldx_mutations:
     input:
         wt=config["outputs"]["foldx_wt"]
     output:

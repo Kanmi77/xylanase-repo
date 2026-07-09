@@ -1,4 +1,4 @@
-rule run_docking_screen:
+rule run_vina_docking:
     input:
         mutations=config["outputs"]["foldx_mutations"]
     output:

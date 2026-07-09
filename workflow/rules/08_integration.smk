@@ -1,4 +1,4 @@
-rule integrate_candidates:
+rule rank_candidate_mutations:
     input:
         foldx_mutations=config["outputs"]["foldx_mutations"],
         docking=config["outputs"]["docking_summary"],
@@ -17,7 +17,7 @@ rule integrate_candidates:
             > {log} 2>&1
         """
 
-rule write_final_report:
+rule write_workflow_report:
     input:
         curated_master=config["outputs"]["curated_master"],
         sequence_features=config["outputs"]["sequence_features"],

@@ -1,4 +1,4 @@
-rule compute_sequence_features:
+rule calculate_sequence_features:
     input:
         master=config["outputs"]["curated_master"]
     output:
@@ -31,7 +31,7 @@ rule prepare_group_fastas:
         """
 
 
-rule run_mafft_alignments:
+rule align_sequences:
     input:
         fasta_dir="results/02_sequence/group_fastas"
     output:
@@ -50,7 +50,7 @@ rule run_mafft_alignments:
         """
 
 
-rule run_fasttree:
+rule build_phylogenetic_trees:
     input:
         alignment_dir="results/02_sequence/alignments"
     output:
@@ -66,7 +66,7 @@ rule run_fasttree:
         """
 
 
-rule compute_conservation:
+rule summarize_conserved_positions:
     input:
         alignment_dir="results/02_sequence/alignments",
         trees="results/02_sequence/trees"

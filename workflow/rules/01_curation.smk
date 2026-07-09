@@ -1,4 +1,4 @@
-rule fetch_uniprot_records:
+rule download_uniprot_records:
     output:
         "data/raw/uniprot_records.tsv"
     log:
@@ -12,7 +12,7 @@ rule fetch_uniprot_records:
         """
 
 
-rule curate_master_dataset:
+rule curate_xylanase_dataset:
     input:
         raw_records="data/raw/uniprot_records.tsv"
     output:

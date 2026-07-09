@@ -1,4 +1,4 @@
-rule run_machine_learning:
+rule run_machine_learning_models:
     input:
         foldx_wt=config["outputs"]["foldx_wt"],
         foldx_mutations=config["outputs"]["foldx_mutations"],
