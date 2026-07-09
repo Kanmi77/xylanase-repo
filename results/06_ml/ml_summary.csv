@@ -1,7 +1,0 @@
-task,target,model,n_samples,n_features,status,test_samples,mae,rmse,r2
-wt_foldx_energy_regression,foldx_energy_per_residue,skipped,4,4,skipped_insufficient_data,,,,
-mutation_ddg_regression,foldx_ddg,dummy_mean,12,5,ready,4.0,1.592996,1.797389493592878,-0.25114916021376765
-mutation_ddg_regression,foldx_ddg,random_forest,12,5,ready,4.0,1.0494756689999998,1.3029232165997027,0.3425505947855604
-docking_affinity_regression,mean_vina_affinity,dummy_mean,12,5,ready,4.0,0.5852812499999998,0.6317091554119267,-1.5133825129895349
-docking_affinity_regression,mean_vina_affinity,random_forest,12,5,ready,4.0,0.14228312500000007,0.1612542404529654,0.8362254048068509
-foldx_mutation_classification,foldx_class,skipped,9,0,skipped_insufficient_classes_or_samples,,,,

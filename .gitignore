@@ -74,3 +74,24 @@ results/workflow/
 scripts/workflow/
 docs/review/
 results/source_tables/
+
+# Snakemake test-mode generated outputs
+results/01_curation/
+results/02_sequence/
+results/03_structure/
+results/04_foldx/
+results/05_docking/
+results/06_ml/
+results/08_integration/
+results/workflow_audit/
+EOFcat >> .gitignore <<'EOF'
+
+# Snakemake test-mode generated outputs
+results/01_curation/
+results/02_sequence/
+results/03_structure/
+results/04_foldx/
+results/05_docking/
+results/06_ml/
+results/08_integration/
+results/workflow_audit/
