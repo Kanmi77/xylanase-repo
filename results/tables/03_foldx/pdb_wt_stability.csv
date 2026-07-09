@@ -1,0 +1,445 @@
+pdb_id,chosen_chain,uniprot_accession,organism_type,organism,gh_family,chain_length,pdb_tag,foldx_wt_total_energy,foldx_energy_per_residue
+1AXK,B,P18429,bacterial,Bacillus subtilis (strain 168),GH11,394,1AXK_B_Repair,-3.72,-0.0094416243654822
+1B30,A,P56588,fungal,Penicillium simplicissimum,GH10,301,1B30_A_Repair,-40.57,-0.1347840531561462
+1B31,A,P56588,fungal,Penicillium simplicissimum,GH10,301,1B31_A_Repair,-51.55,-0.1712624584717607
+1B3V,A,P56588,fungal,Penicillium simplicissimum,GH10,301,1B3V_A_Repair,-20.78,-0.0690365448504983
+1B3W,A,P56588,fungal,Penicillium simplicissimum,GH10,301,1B3W_A_Repair,-24.7,-0.0820598006644518
+1B3X,A,P56588,fungal,Penicillium simplicissimum,GH10,301,1B3X_A_Repair,-33.21,-0.1103322259136212
+1B3Y,A,P56588,fungal,Penicillium simplicissimum,GH10,301,1B3Y_A_Repair,-29.45,-0.0978405315614617
+1B3Z,A,P56588,fungal,Penicillium simplicissimum,GH10,301,1B3Z_A_Repair,-34.68,-0.1152159468438538
+1BCX,A,P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,185,1BCX_A_Repair,-7.14,-0.0385945945945945
+1BG4,A,P56588,fungal,Penicillium simplicissimum,GH10,301,1BG4_A_Repair,31.27,0.1038870431893687
+1BK1,A,P33557,fungal,Aspergillus kawachii (strain NBRC 4308) (White koji mold) (Aspergillus awamori var. kawachi),GH11,182,1BK1_A_Repair,18.64,0.1024175824175824
+1BVV,A,P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,185,1BVV_A_Repair,5.57,0.0301081081081081
+1C5H,A,P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,185,1C5H_A_Repair,2.53,0.0136756756756756
+1C5I,A,P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,185,1C5I_A_Repair,4.42,0.0238918918918918
+1CLX,A,P14768,bacterial,Cellvibrio japonicus (strain Ueda107) (Pseudomonas fluorescens subsp. cellulosa),GH10,345,1CLX_A_Repair,-4.6,-0.0133333333333333
+1DYO,A,P51584,bacterial,Acetivibrio thermocellus (Hungateiclostridium thermocellum) (Clostridium thermocellum),GH10,153,1DYO_A_Repair,25.63,0.167516339869281
+1E0V,A,P26514,bacterial,Streptomyces lividans,GH10,302,1E0V_A_Repair,-47.97,-0.158841059602649
+1E0W,A,P26514,bacterial,Streptomyces lividans,GH10,302,1E0W_A_Repair,-27.86,-0.092251655629139
+1E0X,A,P26514,bacterial,Streptomyces lividans,GH10,310,1E0X_A_Repair,-41.83,-0.1349354838709677
+1E5B,A,P54865,bacterial,Cellulomonas fimi,GH11,87,1E5B_A_Repair,109.97,1.264022988505747
+1E5C,A,P54865,bacterial,Cellulomonas fimi,GH11,87,1E5C_A_Repair,108.26,1.244367816091954
+1E5N,A,P14768,bacterial,Cellvibrio japonicus (strain Ueda107) (Pseudomonas fluorescens subsp. cellulosa),GH10,346,1E5N_A_Repair,25.68,0.0742196531791907
+1E8R,A,P14768,bacterial,Cellvibrio japonicus (strain Ueda107) (Pseudomonas fluorescens subsp. cellulosa),GH10,50,1E8R_A_Repair,84.45,1.689
+1ENX,A,P36217,fungal,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),GH11,189,1ENX_A_Repair,-1.14,-0.006031746031746
+1EXG,A,P07986,bacterial,Cellulomonas fimi,GH10,110,1EXG_A_Repair,180.2,1.6381818181818182
+1EXH,A,P07986,bacterial,Cellulomonas fimi,GH10,110,1EXH_A_Repair,181.09,1.646272727272727
+1EXP,A,P07986,bacterial,Cellulomonas fimi,GH10,312,1EXP_A_Repair,-15.58,-0.0499358974358974
+1F5J,A,P77853,bacterial,Dictyoglomus thermophilum,GH11,199,1F5J_A_Repair,-4.49,-0.0225628140703517
+1FH7,A,P07986,bacterial,Cellulomonas fimi,GH10,312,1FH7_A_Repair,-31.21,-0.1000320512820512
+1FH8,A,P07986,bacterial,Cellulomonas fimi,GH10,312,1FH8_A_Repair,-33.16,-0.1062820512820512
+1FH9,A,P07986,bacterial,Cellulomonas fimi,GH10,312,1FH9_A_Repair,-40.63,-0.130224358974359
+1FHD,A,P07986,bacterial,Cellulomonas fimi,GH10,312,1FHD_A_Repair,-50.16,-0.1607692307692307
+1GKK,A,P51584,bacterial,Acetivibrio thermocellus (Hungateiclostridium thermocellum) (Clostridium thermocellum),GH10,274,1GKK_A_Repair,-48.48,-0.176934306569343
+1GKL,A,P51584,bacterial,Acetivibrio thermocellus (Hungateiclostridium thermocellum) (Clostridium thermocellum),GH10,283,1GKL_A_Repair,-60.87,-0.2150883392226148
+1GMM,A,O52780,bacterial,Acetivibrio thermocellus (Hungateiclostridium thermocellum) (Clostridium thermocellum),GH11,126,1GMM_A_Repair,29.39,0.2332539682539682
+1GNY,A,Q59675,bacterial,Cellvibrio japonicus (Pseudomonas fluorescens subsp. cellulosa),GH10,153,1GNY_A_Repair,12.58,0.0822222222222222
+1GOK,A,P23360,fungal,Thermoascus aurantiacus,GH10,302,1GOK_A_Repair,-57.14,-0.189205298013245
+1GOM,A,P23360,fungal,Thermoascus aurantiacus,GH10,302,1GOM_A_Repair,-45.26,-0.1498675496688741
+1GOO,A,P23360,fungal,Thermoascus aurantiacus,GH10,301,1GOO_A_Repair,-42.95,-0.1426910299003322
+1GOQ,A,P23360,fungal,Thermoascus aurantiacus,GH10,302,1GOQ_A_Repair,-31.34,-0.103774834437086
+1GOR,A,P23360,fungal,Thermoascus aurantiacus,GH10,302,1GOR_A_Repair,-38.61,-0.1278476821192053
+1H1A,A,Q8J1V6,fungal,Thermochaetoides thermophila,GH11,190,1H1A_A_Repair,11.01,0.0579473684210526
+1H4G,B,Q7SIE3,bacterial,Salipaludibacillus agaradhaerens (Bacillus agaradhaerens),unknown,206,1H4G_B_Repair,-26.57,-0.1289805825242718
+1H4H,B,Q7SIE2,bacterial,Salipaludibacillus agaradhaerens (Bacillus agaradhaerens),unknown,208,1H4H_B_Repair,-0.0,-0.0
+1H6X,A,P51584,bacterial,Acetivibrio thermocellus (Hungateiclostridium thermocellum) (Clostridium thermocellum),GH10,159,1H6X_A_Repair,8.35,0.0525157232704402
+1H6Y,A,P51584,bacterial,Acetivibrio thermocellus (Hungateiclostridium thermocellum) (Clostridium thermocellum),GH10,157,1H6Y_A_Repair,6.11,0.0389171974522293
+1HEH,C,P54865,bacterial,Cellulomonas fimi,GH11,88,1HEH_C_Repair,137.28,1.56
+1HEJ,C,P54865,bacterial,Cellulomonas fimi,GH11,88,1HEJ_C_Repair,110.23,1.2526136363636364
+1HIX,B,Q59962,bacterial,Streptomyces sp. S38,GH11,187,1HIX_B_Repair,19.28,0.1031016042780748
+1HIZ,A,P40943,bacterial,Geobacillus stearothermophilus (Bacillus stearothermophilus),GH10,375,1HIZ_A_Repair,-29.51,-0.0786933333333333
+1HV0,A,P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,185,1HV0_A_Repair,0.61,0.0032972972972972
+1HV1,A,P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,185,1HV1_A_Repair,0.07,0.0003783783783783
+1I1W,A,P23360,fungal,Thermoascus aurantiacus,GH10,302,1I1W_A_Repair,-65.27,-0.2161258278145695
+1I1X,A,P23360,fungal,Thermoascus aurantiacus,GH10,301,1I1X_A_Repair,-56.78,-0.1886378737541528
+1I82,A,Q60037,bacterial,Thermotoga maritima (strain ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826 / MSB8),GH10,189,1I82_A_Repair,4.62,0.0244444444444444
+1I8A,A,Q60037,bacterial,Thermotoga maritima (strain ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826 / MSB8),GH10,189,1I8A_A_Repair,-0.52,-0.0027513227513227
+1I8U,A,Q60037,bacterial,Thermotoga maritima (strain ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826 / MSB8),GH10,189,1I8U_A_Repair,1.95,0.0103174603174603
+1IGO,A,Q7SID8,bacterial,Bacillus subtilis,GH11,205,1IGO_A_Repair,12.45,0.0607317073170731
+1ISV,A,Q7SI98,bacterial,Streptomyces olivaceoviridis (Streptomyces corchorusii),GH10,436,1ISV_A_Repair,-3.61,-0.0082798165137614
+1ISW,A,Q7SI98,bacterial,Streptomyces olivaceoviridis (Streptomyces corchorusii),GH10,436,1ISW_A_Repair,23.2,0.0532110091743119
+1ISX,A,Q7SI98,bacterial,Streptomyces olivaceoviridis (Streptomyces corchorusii),GH10,436,1ISX_A_Repair,20.12,0.0461467889908256
+1ISY,A,Q7SI98,bacterial,Streptomyces olivaceoviridis (Streptomyces corchorusii),GH10,436,1ISY_A_Repair,11.22,0.0257339449541284
+1ISZ,A,Q7SI98,bacterial,Streptomyces olivaceoviridis (Streptomyces corchorusii),GH10,427,1ISZ_A_Repair,23.14,0.054192037470726
+1IT0,A,Q7SI98,bacterial,Streptomyces olivaceoviridis (Streptomyces corchorusii),GH10,427,1IT0_A_Repair,27.45,0.0642857142857142
+1J01,A,P07986,bacterial,Cellulomonas fimi,GH10,312,1J01_A_Repair,-23.38,-0.0749358974358974
+1JJF,A,P10478,bacterial,Acetivibrio thermocellus (strain ATCC 27405 / DSM 1237 / JCM 9322 / NBRC 103400 / NCIMB 10682 / NRRL B-4536 / VPI 7372) (Clostridium thermocellum),GH10,255,1JJF_A_Repair,-19.55,-0.0766666666666666
+1JT2,A,P10478,bacterial,Acetivibrio thermocellus (strain ATCC 27405 / DSM 1237 / JCM 9322 / NBRC 103400 / NCIMB 10682 / NRRL B-4536 / VPI 7372) (Clostridium thermocellum),GH10,255,1JT2_A_Repair,-30.29,-0.1187843137254902
+1K42,A,P96988,bacterial,Rhodothermus marinus (Rhodothermus obamensis),GH10,168,1K42_A_Repair,230.37,1.37125
+1K45,A,P96988,bacterial,Rhodothermus marinus (Rhodothermus obamensis),GH10,168,1K45_A_Repair,252.35,1.5020833333333332
+1K6A,A,P23360,fungal,Thermoascus aurantiacus,GH10,302,1K6A_A_Repair,-67.18,-0.2224503311258278
+1KNL,A,P26514,bacterial,Streptomyces lividans,GH10,126,1KNL_A_Repair,0.14,0.0011111111111111
+1KNM,A,P26514,bacterial,Streptomyces lividans,GH10,129,1KNM_A_Repair,10.01,0.0775968992248062
+1M4W,A,Q8GMV7,bacterial,Thermopolyspora flexuosa,GH11,197,1M4W_A_Repair,12.21,0.061979695431472
+1MC9,A,P26514,bacterial,Streptomyces lividans,GH10,126,1MC9_A_Repair,26.24,0.2082539682539682
+1N82,A,Q09LY9,bacterial,Geobacillus stearothermophilus (Bacillus stearothermophilus),GH10,330,1N82_A_Repair,-70.51,-0.2136666666666666
+1NAE,A,Q8GJ44,bacterial,Thermoclostridium stercorarium (Clostridium stercorarium),GH11,129,1NAE_A_Repair,-0.93,-0.0072093023255813
+1NQ6,A,Q59922,bacterial,Streptomyces halstedii,GH10,302,1NQ6_A_Repair,-27.79,-0.0920198675496688
+1O8P,A,Q8GJ44,bacterial,Thermoclostridium stercorarium (Clostridium stercorarium),GH11,131,1O8P_A_Repair,-10.5,-0.0801526717557251
+1O8S,A,Q8GJ44,bacterial,Thermoclostridium stercorarium (Clostridium stercorarium),GH11,132,1O8S_A_Repair,-14.88,-0.1127272727272727
+1OD3,A,Q8GJ44,bacterial,Thermoclostridium stercorarium (Clostridium stercorarium),GH11,132,1OD3_A_Repair,-13.47,-0.1020454545454545
+1OD8,A,P26514,bacterial,Streptomyces lividans,GH10,302,1OD8_A_Repair,-38.13,-0.1262582781456953
+1OHZ,A,P51584,bacterial,Acetivibrio thermocellus (Hungateiclostridium thermocellum) (Clostridium thermocellum),GH10,140,1OHZ_A_Repair,-19.53,-0.1395
+1PVX,A,P81536,fungal,Byssochlamys spectabilis (Paecilomyces variotii),GH11,194,1PVX_A_Repair,4.58,0.0236082474226804
+1QH6,A,Q7SIE3,bacterial,Salipaludibacillus agaradhaerens (Bacillus agaradhaerens),unknown,206,1QH6_A_Repair,-22.14,-0.1074757281553398
+1QH7,A,Q7SIE3,bacterial,Salipaludibacillus agaradhaerens (Bacillus agaradhaerens),unknown,206,1QH7_A_Repair,-26.06,-0.126504854368932
+1QLD,A,P14768,bacterial,Cellvibrio japonicus (strain Ueda107) (Pseudomonas fluorescens subsp. cellulosa),GH10,50,1QLD_A_Repair,95.3,1.906
+1R85,A,P40943,bacterial,Geobacillus stearothermophilus (Bacillus stearothermophilus),GH10,371,1R85_A_Repair,-90.23,-0.2432075471698113
+1R86,A,P40943,bacterial,Geobacillus stearothermophilus (Bacillus stearothermophilus),GH10,371,1R86_A_Repair,-67.99,-0.1832614555256064
+1R87,A,P40943,bacterial,Geobacillus stearothermophilus (Bacillus stearothermophilus),GH10,371,1R87_A_Repair,-79.44,-0.2141239892183288
+1RED,A,P36217,fungal,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),GH11,189,1RED_A_Repair,-0.2,-0.001058201058201
+1REE,A,P36217,fungal,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),GH11,189,1REE_A_Repair,7.65,0.0404761904761904
+1REF,A,P36217,fungal,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),GH11,189,1REF_A_Repair,13.33,0.0705291005291005
+1T6G,A,P55329,fungal,Aspergillus niger,GH11,368,1T6G_A_Repair,-47.13,-0.128070652173913
+1TA3,B,Q00177,fungal,Emericella nidulans (strain FGSC A4 / ATCC 38163 / CBS 112.46 / NRRL 194 / M139) (Aspergillus nidulans),GH10,301,1TA3_B_Repair,-47.29,-0.157109634551495
+1TE1,A,Q9HFH0,fungal,Talaromyces funiculosus (Fruitlet core rot fungus) (Penicillium funiculosum),GH11,274,1TE1_A_Repair,34.27,0.1250729927007299
+1TUX,A,P23360,fungal,Thermoascus aurantiacus,GH10,301,1TUX_A_Repair,-35.72,-0.1186710963455149
+1UKR,A,P55329,fungal,Aspergillus niger,GH11,181,1UKR_A_Repair,3.08,0.0170165745856353
+1UQY,A,O68541,bacterial,Cellvibrio mixtus,GH10,347,1UQY_A_Repair,-79.42,-0.2288760806916426
+1UQZ,A,O68541,bacterial,Cellvibrio mixtus,GH10,348,1UQZ_A_Repair,-84.83,-0.2437643678160919
+1UR1,A,O68541,bacterial,Cellvibrio mixtus,GH10,346,1UR1_A_Repair,-85.5,-0.2471098265895953
+1UR2,A,O68541,bacterial,Cellvibrio mixtus,GH10,351,1UR2_A_Repair,-86.87,-0.2474928774928775
+1US2,A,Q59675,bacterial,Cellvibrio japonicus (Pseudomonas fluorescens subsp. cellulosa),GH10,507,1US2_A_Repair,0.97,0.001913214990138
+1US3,A,Q59675,bacterial,Cellvibrio japonicus (Pseudomonas fluorescens subsp. cellulosa),GH10,482,1US3_A_Repair,-3.43,-0.0071161825726141
+1UXX,X,O52780,bacterial,Acetivibrio thermocellus (Hungateiclostridium thermocellum) (Clostridium thermocellum),GH11,125,1UXX_X_Repair,2.27,0.01816
+1UY1,A,Q8GJ44,bacterial,Thermoclostridium stercorarium (Clostridium stercorarium),GH11,132,1UY1_A_Repair,1.89,0.0143181818181818
+1UY2,A,Q8GJ44,bacterial,Thermoclostridium stercorarium (Clostridium stercorarium),GH11,131,1UY2_A_Repair,0.96,0.0073282442748091
+1UY3,A,Q8GJ44,bacterial,Thermoclostridium stercorarium (Clostridium stercorarium),GH11,132,1UY3_A_Repair,3.25,0.0246212121212121
+1UY4,A,Q8GJ44,bacterial,Thermoclostridium stercorarium (Clostridium stercorarium),GH11,132,1UY4_A_Repair,4.42,0.0334848484848484
+1V0K,A,P26514,bacterial,Streptomyces lividans,GH10,302,1V0K_A_Repair,-54.34,-0.1799337748344371
+1V0L,A,P26514,bacterial,Streptomyces lividans,GH10,302,1V0L_A_Repair,-46.26,-0.1531788079470198
+1V0M,A,P26514,bacterial,Streptomyces lividans,GH10,303,1V0M_A_Repair,-54.38,-0.1794719471947194
+1V0N,A,P26514,bacterial,Streptomyces lividans,GH10,302,1V0N_A_Repair,-43.27,-0.1432781456953642
+1V6U,A,Q7SI98,bacterial,Streptomyces olivaceoviridis (Streptomyces corchorusii),GH10,436,1V6U_A_Repair,29.82,0.068394495412844
+1V6V,A,Q7SI98,bacterial,Streptomyces olivaceoviridis (Streptomyces corchorusii),GH10,436,1V6V_A_Repair,11.91,0.0273165137614678
+1V6W,A,Q7SI98,bacterial,Streptomyces olivaceoviridis (Streptomyces corchorusii),GH10,436,1V6W_A_Repair,18.14,0.0416055045871559
+1V6X,A,Q7SI98,bacterial,Streptomyces olivaceoviridis (Streptomyces corchorusii),GH10,436,1V6X_A_Repair,16.31,0.0374082568807339
+1V6Y,A,Q7SI98,bacterial,Streptomyces olivaceoviridis (Streptomyces corchorusii),GH10,316,1V6Y_A_Repair,-38.94,-0.1232278481012658
+1VBR,A,Q9WXS5,bacterial,Thermotoga maritima (strain ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826 / MSB8),GH10,324,1VBR_A_Repair,-103.61,-0.3197839506172839
+1VBU,A,Q9WXS5,bacterial,Thermotoga maritima (strain ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826 / MSB8),GH10,324,1VBU_A_Repair,-116.04,-0.3581481481481481
+1W2P,A,P14768,bacterial,Cellvibrio japonicus (strain Ueda107) (Pseudomonas fluorescens subsp. cellulosa),GH10,346,1W2P_A_Repair,-9.5,-0.0274566473988439
+1W2V,A,P14768,bacterial,Cellvibrio japonicus (strain Ueda107) (Pseudomonas fluorescens subsp. cellulosa),GH10,346,1W2V_A_Repair,0.23,0.000664739884393
+1W32,A,P14768,bacterial,Cellvibrio japonicus (strain Ueda107) (Pseudomonas fluorescens subsp. cellulosa),GH10,346,1W32_A_Repair,-22.86,-0.0660693641618497
+1W3H,A,P14768,bacterial,Cellvibrio japonicus (strain Ueda107) (Pseudomonas fluorescens subsp. cellulosa),GH10,348,1W3H_A_Repair,15.7,0.0451149425287356
+1WB4,A,P51584,bacterial,Acetivibrio thermocellus (Hungateiclostridium thermocellum) (Clostridium thermocellum),GH10,283,1WB4_A_Repair,-63.66,-0.224946996466431
+1WB5,A,P51584,bacterial,Acetivibrio thermocellus (Hungateiclostridium thermocellum) (Clostridium thermocellum),GH10,283,1WB5_A_Repair,-60.43,-0.2135335689045936
+1WB6,A,P51584,bacterial,Acetivibrio thermocellus (Hungateiclostridium thermocellum) (Clostridium thermocellum),GH10,283,1WB6_A_Repair,-60.28,-0.2130035335689045
+1XAS,,P26514,bacterial,Streptomyces lividans,GH10,0,1XAS__Repair,,
+1XBD,A,P54865,bacterial,Cellulomonas fimi,GH11,87,1XBD_A_Repair,87.29,1.0033333333333334
+1XNB,A,P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,185,1XNB_A_Repair,-8.58,-0.0463783783783783
+1XNC,A,P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,185,1XNC_A_Repair,-9.11,-0.0492432432432432
+1XND,A,P48793,fungal,Trichoderma harzianum (Hypocrea lixii),GH11,190,1XND_A_Repair,33.9,0.1784210526315789
+1XNK,A,Q8J1V6,fungal,Thermochaetoides thermophila,GH11,190,1XNK_A_Repair,-7.35,-0.0386842105263157
+1XXN,A,P18429,bacterial,Bacillus subtilis (strain 168),GH11,185,1XXN_A_Repair,-5.88,-0.0317837837837837
+1XYF,A,Q7SI98,bacterial,Streptomyces olivaceoviridis (Streptomyces corchorusii),GH10,427,1XYF_A_Repair,0.39,0.0009133489461358
+1XYN,A,P36218,fungal,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),GH11,178,1XYN_A_Repair,31.07,0.1745505617977528
+1XYO,A,P36217,fungal,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),GH11,189,1XYO_A_Repair,-0.92,-0.0048677248677248
+1XYP,A,P36217,fungal,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),GH11,189,1XYP_A_Repair,3.5,0.0185185185185185
+1XYS,,P14768,bacterial,Cellvibrio japonicus (strain Ueda107) (Pseudomonas fluorescens subsp. cellulosa),GH10,0,1XYS__Repair,,
+1XYZ,A,P10478,bacterial,Acetivibrio thermocellus (strain ATCC 27405 / DSM 1237 / JCM 9322 / NBRC 103400 / NCIMB 10682 / NRRL B-4536 / VPI 7372) (Clostridium thermocellum),GH10,320,1XYZ_A_Repair,-83.0,-0.259375
+1YNA,A,O43097,fungal,Thermomyces lanuginosus (Humicola lanuginosa),GH11,193,1YNA_A_Repair,-18.15,-0.094041450777202
+2B42,A,P18429,bacterial,Bacillus subtilis (strain 168),GH11,364,2B42_A_Repair,-15.7,-0.0431318681318681
+2B45,X,P18429,bacterial,Bacillus subtilis (strain 168),GH11,185,2B45_X_Repair,-11.41,-0.0616756756756756
+2B46,X,P18429,bacterial,Bacillus subtilis (strain 168),GH11,185,2B46_X_Repair,-2.67,-0.0144324324324324
+2BNJ,A,P23360,fungal,Thermoascus aurantiacus,GH10,301,2BNJ_A_Repair,-79.91,-0.2654817275747508
+2BVV,A,P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,185,2BVV_A_Repair,-2.84,-0.0153513513513513
+2C1F,A,P29127,fungal,Neocallimastix patriciarum (Rumen fungus),GH11,219,2C1F_A_Repair,-3.04,-0.0138812785388127
+2C71,A,O87119,bacterial,Acetivibrio thermocellus (Hungateiclostridium thermocellum) (Clostridium thermocellum),GH11,205,2C71_A_Repair,-56.78,-0.2769756097560976
+2C79,A,O87119,bacterial,Acetivibrio thermocellus (Hungateiclostridium thermocellum) (Clostridium thermocellum),GH11,205,2C79_A_Repair,-63.92,-0.3118048780487805
+2CCL,A,P51584,bacterial,Acetivibrio thermocellus (Hungateiclostridium thermocellum) (Clostridium thermocellum),GH10,149,2CCL_A_Repair,-13.25,-0.0889261744966442
+2CNC,A,O68541,bacterial,Cellvibrio mixtus,GH10,350,2CNC_A_Repair,13.84,0.0395428571428571
+2D1Z,A,Q7SI98,bacterial,Streptomyces olivaceoviridis (Streptomyces corchorusii),GH10,427,2D1Z_A_Repair,-6.76,-0.015831381733021
+2D20,A,Q7SI98,bacterial,Streptomyces olivaceoviridis (Streptomyces corchorusii),GH10,427,2D20_A_Repair,-12.18,-0.0285245901639344
+2D22,A,Q7SI98,bacterial,Streptomyces olivaceoviridis (Streptomyces corchorusii),GH10,427,2D22_A_Repair,-14.2,-0.033255269320843
+2D23,A,Q7SI98,bacterial,Streptomyces olivaceoviridis (Streptomyces corchorusii),GH10,427,2D23_A_Repair,7.44,0.017423887587822
+2D24,A,Q7SI98,bacterial,Streptomyces olivaceoviridis (Streptomyces corchorusii),GH10,427,2D24_A_Repair,-15.79,-0.0369789227166276
+2D97,A,P36217,fungal,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),GH11,185,2D97_A_Repair,4.88,0.0263783783783783
+2D98,A,P36217,fungal,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),GH11,183,2D98_A_Repair,-0.64,-0.0034972677595628
+2DCJ,A,Q9RC94,bacterial,Bacillus sp. 41M-1,GH11,327,2DCJ_A_Repair,13.72,0.0419571865443425
+2DCK,A,Q9RC94,bacterial,Bacillus sp. 41M-1,GH11,320,2DCK_A_Repair,3.5,0.0109375
+2DCY,A,P18429,bacterial,Bacillus subtilis (strain 168),GH11,185,2DCY_A_Repair,-7.16,-0.0387027027027027
+2DCZ,A,P18429,bacterial,Bacillus subtilis (strain 168),GH11,185,2DCZ_A_Repair,-11.85,-0.064054054054054
+2DEP,A,P40942,bacterial,Thermoclostridium stercorarium (Clostridium stercorarium),GH10,340,2DEP_A_Repair,-67.07,-0.1972647058823529
+2DFB,A,P36217,fungal,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),GH11,189,2DFB_A_Repair,-16.42,-0.0868783068783068
+2DFC,A,P36217,fungal,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),GH11,189,2DFC_A_Repair,-12.17,-0.0643915343915343
+2EXO,A,P07986,bacterial,Cellulomonas fimi,GH10,312,2EXO_A_Repair,-18.58,-0.059551282051282
+2F6B,A,Q7SIE3,bacterial,Salipaludibacillus agaradhaerens (Bacillus agaradhaerens),unknown,206,2F6B_A_Repair,3.82,0.0185436893203883
+2F8Q,A,O30700,bacterial,Bacillus sp. NG-27,GH10,353,2F8Q_A_Repair,-25.94,-0.0734844192634561
+2FGL,A,O30700,bacterial,Bacillus sp. NG-27,GH10,354,2FGL_A_Repair,-20.3,-0.0573446327683615
+2G3I,A,Q7SI98,bacterial,Streptomyces olivaceoviridis (Streptomyces corchorusii),GH10,303,2G3I_A_Repair,-29.74,-0.0981518151815181
+2G3J,A,Q7SI98,bacterial,Streptomyces olivaceoviridis (Streptomyces corchorusii),GH10,301,2G3J_A_Repair,-0.01,-3.322259136212625e-05
+2G4F,A,Q7SI98,bacterial,Streptomyces olivaceoviridis (Streptomyces corchorusii),GH10,302,2G4F_A_Repair,-2.14,-0.0070860927152317
+2HIS,A,P07986,bacterial,Cellulomonas fimi,GH10,312,2HIS_A_Repair,1.39,0.0044551282051282
+2JIC,A,F8W669,fungal,Trichoderma longibrachiatum,unknown,189,2JIC_A_Repair,8.16,0.0431746031746031
+2NQY,A,Q7SIE3,bacterial,Salipaludibacillus agaradhaerens (Bacillus agaradhaerens),unknown,206,2NQY_A_Repair,-7.64,-0.0370873786407767
+2Q8X,A,Q09LY9,bacterial,Geobacillus stearothermophilus (Bacillus stearothermophilus),GH10,330,2Q8X_A_Repair,-60.32,-0.1827878787878787
+2QZ2,A,P55329,fungal,Aspergillus niger,GH11,183,2QZ2_A_Repair,11.88,0.0649180327868852
+2QZ3,A,P18429,bacterial,Bacillus subtilis (strain 168),GH11,184,2QZ3_A_Repair,-17.48,-0.095
+2UWF,A,P07528,bacterial,Halalkalibacterium halodurans (strain ATCC BAA-125 / DSM 18197 / FERM 7344 / JCM 9153 / C-125) (Bacillus halodurans),GH10,356,2UWF_A_Repair,-46.53,-0.1307022471910112
+2VG9,A,P29127,fungal,Neocallimastix patriciarum (Rumen fungus),GH11,217,2VG9_A_Repair,-9.65,-0.0444700460829493
+2W5F,B,P51584,bacterial,Acetivibrio thermocellus (Hungateiclostridium thermocellum) (Clostridium thermocellum),GH10,513,2W5F_B_Repair,-57.08,-0.1112670565302144
+2WYS,B,P51584,bacterial,Acetivibrio thermocellus (Hungateiclostridium thermocellum) (Clostridium thermocellum),GH10,507,2WYS_B_Repair,144.29,0.2845956607495069
+2WZE,B,P51584,bacterial,Acetivibrio thermocellus (Hungateiclostridium thermocellum) (Clostridium thermocellum),GH10,507,2WZE_B_Repair,35.29,0.0696055226824457
+2XBD,A,P54865,bacterial,Cellulomonas fimi,GH11,87,2XBD_A_Repair,75.97,0.8732183908045977
+2XYL,A,P07986,bacterial,Cellulomonas fimi,GH10,312,2XYL_A_Repair,-16.1,-0.0516025641025641
+2Y64,A,Q7WTN6,bacterial,Rhodothermus marinus (Rhodothermus obamensis),GH10,167,2Y64_A_Repair,-12.98,-0.0777245508982036
+2Y6G,A,Q7WTN6,bacterial,Rhodothermus marinus (Rhodothermus obamensis),GH10,167,2Y6G_A_Repair,-11.95,-0.0715568862275449
+2Y6H,A,Q7WTN6,bacterial,Rhodothermus marinus (Rhodothermus obamensis),GH10,167,2Y6H_A_Repair,-13.38,-0.0801197604790419
+2Y6J,A,Q7WTN6,bacterial,Rhodothermus marinus (Rhodothermus obamensis),GH10,167,2Y6J_A_Repair,-15.71,-0.0940718562874251
+2Y6K,A,Q7WTN6,bacterial,Rhodothermus marinus (Rhodothermus obamensis),GH10,165,2Y6K_A_Repair,-18.71,-0.1133939393939394
+2Y6L,A,Q7WTN6,bacterial,Rhodothermus marinus (Rhodothermus obamensis),GH10,167,2Y6L_A_Repair,-22.39,-0.1340718562874251
+2Z79,A,P18429,bacterial,Bacillus subtilis (strain 168),GH11,184,2Z79_A_Repair,-13.9,-0.0755434782608695
+3AKP,A,F8W669,fungal,Trichoderma longibrachiatum,unknown,189,3AKP_A_Repair,-2.5,-0.0132275132275132
+3AKQ,A,F8W669,fungal,Trichoderma longibrachiatum,unknown,189,3AKQ_A_Repair,-1.63,-0.0086243386243386
+3AKR,A,F8W669,fungal,Trichoderma longibrachiatum,unknown,189,3AKR_A_Repair,20.55,0.1087301587301587
+3AKS,A,F8W669,fungal,Trichoderma longibrachiatum,unknown,189,3AKS_A_Repair,8.37,0.0442857142857142
+3AKT,A,F8W669,fungal,Trichoderma longibrachiatum,unknown,189,3AKT_A_Repair,-5.51,-0.0291534391534391
+3B5L,B,Q8GMV7,bacterial,Thermopolyspora flexuosa,GH11,198,3B5L_B_Repair,-6.77,-0.0341919191919191
+3CUF,A,P07986,bacterial,Cellulomonas fimi,GH10,314,3CUF_A_Repair,-62.36,-0.1985987261146496
+3CUG,A,P07986,bacterial,Cellulomonas fimi,GH10,314,3CUG_A_Repair,-62.6,-0.1993630573248407
+3CUH,A,P07986,bacterial,Cellulomonas fimi,GH10,314,3CUH_A_Repair,-63.95,-0.2036624203821656
+3CUI,A,P07986,bacterial,Cellulomonas fimi,GH10,314,3CUI_A_Repair,-59.36,-0.1890445859872611
+3CUJ,A,P07986,bacterial,Cellulomonas fimi,GH10,314,3CUJ_A_Repair,-63.61,-0.2025796178343949
+3EMC,A,O69231,bacterial,Paenibacillus barcinonensis,GH10,331,3EMC_A_Repair,-6.11,-0.0184592145015105
+3EMQ,A,O69231,bacterial,Paenibacillus barcinonensis,GH10,331,3EMQ_A_Repair,70.02,0.2115407854984894
+3EMZ,A,O69231,bacterial,Paenibacillus barcinonensis,GH10,331,3EMZ_A_Repair,-10.19,-0.0307854984894259
+3EXU,A,P18429,bacterial,Bacillus subtilis (strain 168),GH11,185,3EXU_A_Repair,-8.89,-0.048054054054054
+3HD8,A,P18429,bacterial,Bacillus subtilis (strain 168),GH11,370,3HD8_A_Repair,25.81,0.0697567567567567
+3JXS,A,Q7WTN6,bacterial,Rhodothermus marinus (Rhodothermus obamensis),GH10,166,3JXS_A_Repair,-12.88,-0.0775903614457831
+3LB9,A,P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,182,3LB9_A_Repair,67.74,0.3721978021978022
+3LGR,A,P36217,fungal,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),GH11,189,3LGR_A_Repair,-7.27,-0.0384656084656084
+3M4F,A,Q6VAY1,fungal,Acidomyces acidophilus,GH11,181,3M4F_A_Repair,-6.43,-0.035524861878453
+3MF6,A,Q8GMV7,bacterial,Thermopolyspora flexuosa,GH11,193,3MF6_A_Repair,-8.61,-0.0446113989637305
+3MF9,A,Q8GMV7,bacterial,Thermopolyspora flexuosa,GH11,193,3MF9_A_Repair,-9.22,-0.0477720207253886
+3MFA,A,Q8GMV7,bacterial,Thermopolyspora flexuosa,GH11,194,3MFA_A_Repair,-2.48,-0.0127835051546391
+3MFC,A,Q8GMV7,bacterial,Thermopolyspora flexuosa,GH11,187,3MFC_A_Repair,-2.73,-0.0145989304812834
+3MMD,A,P40943,bacterial,Geobacillus stearothermophilus (Bacillus stearothermophilus),GH10,371,3MMD_A_Repair,-45.59,-0.1228840970350404
+3MS8,A,Q09LY9,bacterial,Geobacillus stearothermophilus (Bacillus stearothermophilus),GH10,330,3MS8_A_Repair,-57.37,-0.1738484848484848
+3MSD,A,Q09LY9,bacterial,Geobacillus stearothermophilus (Bacillus stearothermophilus),GH10,330,3MSD_A_Repair,-48.68,-0.1475151515151515
+3MSG,A,Q09LY9,bacterial,Geobacillus stearothermophilus (Bacillus stearothermophilus),GH10,330,3MSG_A_Repair,-55.61,-0.1685151515151515
+3MUA,A,Q09LY9,bacterial,Geobacillus stearothermophilus (Bacillus stearothermophilus),GH10,330,3MUA_A_Repair,-54.86,-0.1662424242424242
+3MUI,A,Q09LY9,bacterial,Geobacillus stearothermophilus (Bacillus stearothermophilus),GH10,330,3MUI_A_Repair,-52.63,-0.1594848484848484
+3NIY,A,A5IL00,bacterial,Thermotoga petrophila (strain ATCC BAA-488 / DSM 13995 / JCM 10881 / RKU-1),GH10,326,3NIY_A_Repair,-112.52,-0.3451533742331288
+3NJ3,A,A5IL00,bacterial,Thermotoga petrophila (strain ATCC BAA-488 / DSM 13995 / JCM 10881 / RKU-1),GH10,327,3NJ3_A_Repair,-100.93,-0.3086544342507645
+3NYD,A,P23360,fungal,Thermoascus aurantiacus,GH10,304,3NYD_A_Repair,-74.69,-0.2456907894736842
+3O2L,A,P23360,fungal,Thermoascus aurantiacus,GH10,306,3O2L_A_Repair,-52.57,-0.171797385620915
+3RDK,B,C6CRV0,bacterial,Paenibacillus sp. (strain JDR-2),GH10,334,3RDK_B_Repair,-70.08,-0.2098203592814371
+3RI8,A,P33557,fungal,Aspergillus kawachii (strain NBRC 4308) (White koji mold) (Aspergillus awamori var. kawachi),GH11,182,3RI8_A_Repair,13.2,0.0725274725274725
+3RI9,A,P33557,fungal,Aspergillus kawachii (strain NBRC 4308) (White koji mold) (Aspergillus awamori var. kawachi),GH11,182,3RI9_A_Repair,16.52,0.0907692307692307
+3RO8,A,C6CRV0,bacterial,Paenibacillus sp. (strain JDR-2),GH10,304,3RO8_A_Repair,-30.07,-0.0989144736842105
+3U7B,A,B3A0S5,fungal,Fusarium oxysporum f. sp. lycopersici (strain 4287 / CBS 123668 / FGSC 9935 / NRRL 34936) (Fusarium vascular wilt of tomato),unknown,327,3U7B_A_Repair,-40.72,-0.124525993883792
+3VZJ,A,P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,185,3VZJ_A_Repair,114.01,0.6162702702702703
+3VZK,A,P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,185,3VZK_A_Repair,-10.8,-0.0583783783783783
+3VZL,A,P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,185,3VZL_A_Repair,0.6,0.0032432432432432
+3VZM,A,P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,185,3VZM_A_Repair,-5.44,-0.0294054054054054
+3VZN,A,P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,185,3VZN_A_Repair,-9.02,-0.0487567567567567
+3VZO,A,P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,185,3VZO_A_Repair,-11.45,-0.0618918918918918
+3W24,A,I3VVC1,bacterial,Thermoanaerobacterium saccharolyticum (strain DSM 8691 / JW/SL-YS485),unknown,324,3W24_A_Repair,-87.71,-0.2707098765432099
+3W25,A,I3VVC1,bacterial,Thermoanaerobacterium saccharolyticum (strain DSM 8691 / JW/SL-YS485),unknown,324,3W25_A_Repair,-89.08,-0.2749382716049383
+3W26,A,I3VVC1,bacterial,Thermoanaerobacterium saccharolyticum (strain DSM 8691 / JW/SL-YS485),unknown,324,3W26_A_Repair,-78.01,-0.2407716049382716
+3W27,A,I3VVC1,bacterial,Thermoanaerobacterium saccharolyticum (strain DSM 8691 / JW/SL-YS485),unknown,324,3W27_A_Repair,-83.75,-0.2584876543209876
+3W28,A,I3VVC1,bacterial,Thermoanaerobacterium saccharolyticum (strain DSM 8691 / JW/SL-YS485),unknown,324,3W28_A_Repair,-84.79,-0.2616975308641975
+3W29,A,I3VVC1,bacterial,Thermoanaerobacterium saccharolyticum (strain DSM 8691 / JW/SL-YS485),unknown,324,3W29_A_Repair,-86.0,-0.2654320987654321
+3WP3,A,Q9HFH0,fungal,Talaromyces funiculosus (Fruitlet core rot fungus) (Penicillium funiculosum),GH11,190,3WP3_A_Repair,2.93,0.0154210526315789
+3WP4,A,Q9UV68,fungal,Neocallimastix patriciarum (Rumen fungus),GH11,228,3WP4_A_Repair,-20.25,-0.0888157894736842
+3WP5,A,Q9UV68,fungal,Neocallimastix patriciarum (Rumen fungus),GH11,227,3WP5_A_Repair,-22.9,-0.1008810572687224
+3WP6,A,Q9UV68,fungal,Neocallimastix patriciarum (Rumen fungus),GH11,228,3WP6_A_Repair,-8.65,-0.037938596491228
+3WUB,A,B4XVN1,bacterial,Streptomyces sp,GH10,313,3WUB_A_Repair,-35.35,-0.1129392971246006
+3WUE,A,B4XVN1,bacterial,Streptomyces sp,GH10,312,3WUE_A_Repair,-45.39,-0.1454807692307692
+3WUF,A,B4XVN1,bacterial,Streptomyces sp,GH10,313,3WUF_A_Repair,-45.3,-0.1447284345047923
+3WUG,A,B4XVN1,bacterial,Streptomyces sp,GH10,312,3WUG_A_Repair,-57.35,-0.1838141025641025
+3ZI7,A,P51584,bacterial,Acetivibrio thermocellus (Hungateiclostridium thermocellum) (Clostridium thermocellum),GH10,274,3ZI7_A_Repair,-48.15,-0.1757299270072992
+3ZSE,A,Q5RZ98,bacterial,Thermobifida fusca (Thermomonospora fusca),GH11,188,3ZSE_A_Repair,-12.03,-0.0639893617021276
+4BAG,A,P51584,bacterial,Acetivibrio thermocellus (Hungateiclostridium thermocellum) (Clostridium thermocellum),GH10,274,4BAG_A_Repair,-53.36,-0.1947445255474452
+4BS0,A,P23360,fungal,Thermoascus aurantiacus,GH10,300,4BS0_A_Repair,-82.2,-0.274
+4E4P,A,C6CRV0,bacterial,Paenibacillus sp. (strain JDR-2),GH10,293,4E4P_A_Repair,-20.32,-0.0693515358361774
+4F8X,A,C3VEV9,fungal,Penicillium canescens,GH10,335,4F8X_A_Repair,-67.05,-0.2001492537313432
+4H35,A,P51584,bacterial,Acetivibrio thermocellus (Hungateiclostridium thermocellum) (Clostridium thermocellum),GH10,274,4H35_A_Repair,-54.42,-0.1986131386861314
+4HK8,A,P36217,fungal,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),GH11,189,4HK8_A_Repair,-20.54,-0.1086772486772486
+4HK9,A,P36217,fungal,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),GH11,188,4HK9_A_Repair,-19.88,-0.1057446808510638
+4HKL,A,P36217,fungal,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),GH11,189,4HKL_A_Repair,-11.06,-0.0585185185185185
+4HKO,A,P36217,fungal,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),GH11,189,4HKO_A_Repair,-3.58,-0.0189417989417989
+4HKW,A,P36217,fungal,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),GH11,189,4HKW_A_Repair,-1.43,-0.0075661375661375
+4HU8,B,K7PDC1,bacterial,uncultured bacterium 35A20,unknown,452,4HU8_B_Repair,10.92,0.0241592920353982
+4L4O,A,B9MMA5,bacterial,Caldicellulosiruptor bescii (strain ATCC BAA-1888 / DSM 6725 / KCTC 15123 / Z-1320) (Anaerocellum thermophilum),GH10,330,4L4O_A_Repair,-69.61,-0.2109393939393939
+4L4P,A,B9MMA5,bacterial,Caldicellulosiruptor bescii (strain ATCC BAA-1888 / DSM 6725 / KCTC 15123 / Z-1320) (Anaerocellum thermophilum),GH10,328,4L4P_A_Repair,-72.67,-0.2215548780487805
+4MGQ,A,D8DVU6,bacterial,Segatella baroniae B14,unknown,159,4MGQ_A_Repair,5.0,0.0314465408805031
+4PMD,A,B9MMA5,bacterial,Caldicellulosiruptor bescii (strain ATCC BAA-1888 / DSM 6725 / KCTC 15123 / Z-1320) (Anaerocellum thermophilum),GH10,329,4PMD_A_Repair,-86.3,-0.2623100303951368
+4PRW,A,P40943,bacterial,Geobacillus stearothermophilus (Bacillus stearothermophilus),GH10,371,4PRW_A_Repair,-94.76,-0.2554177897574124
+4PUD,A,P40943,bacterial,Geobacillus stearothermophilus (Bacillus stearothermophilus),GH10,371,4PUD_A_Repair,-79.7,-0.2148247978436658
+4PUE,A,P40943,bacterial,Geobacillus stearothermophilus (Bacillus stearothermophilus),GH10,371,4PUE_A_Repair,-64.81,-0.1746900269541779
+4QAW,A,H6WCZ0,bacterial,Paenibacillus barcinonensis,unknown,537,4QAW_A_Repair,61.82,0.11512104283054
+4QB1,A,H6WCZ0,bacterial,Paenibacillus barcinonensis,unknown,128,4QB1_A_Repair,-4.99,-0.038984375
+4QB2,A,H6WCZ0,bacterial,Paenibacillus barcinonensis,unknown,129,4QB2_A_Repair,-1.71,-0.0132558139534883
+4QB6,A,H6WCZ0,bacterial,Paenibacillus barcinonensis,unknown,129,4QB6_A_Repair,-5.28,-0.0409302325581395
+4QCE,A,O30700,bacterial,Bacillus sp. NG-27,GH10,354,4QCE_A_Repair,-53.76,-0.151864406779661
+4QCF,A,O30700,bacterial,Bacillus sp. NG-27,GH10,354,4QCF_A_Repair,-36.56,-0.1032768361581921
+4QDM,A,O30700,bacterial,Bacillus sp. NG-27,GH10,354,4QDM_A_Repair,-53.97,-0.152457627118644
+4S2D,A,P36217,fungal,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),GH11,189,4S2D_A_Repair,2.7,0.0142857142857142
+4S2F,A,P36217,fungal,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),GH11,189,4S2F_A_Repair,20.7,0.1095238095238095
+4S2G,A,P36217,fungal,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),GH11,189,4S2G_A_Repair,-3.88,-0.0205291005291005
+4S2H,A,P36217,fungal,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),GH11,189,4S2H_A_Repair,0.62,0.0032804232804232
+4W8L,A,O69230,bacterial,Paenibacillus barcinonensis,GH10,352,4W8L_A_Repair,-53.74,-0.1526704545454545
+4XPV,A,P36217,fungal,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),GH11,189,4XPV_A_Repair,-5.2,-0.0275132275132275
+4XQ4,A,P36217,fungal,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),GH11,188,4XQ4_A_Repair,-11.38,-0.060531914893617
+4XQD,B,P36217,fungal,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),GH11,189,4XQD_B_Repair,-13.88,-0.0734391534391534
+4XQW,A,P36217,fungal,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),GH11,189,4XQW_A_Repair,-6.61,-0.0349735449735449
+4XUN,A,O69230,bacterial,Paenibacillus barcinonensis,GH10,161,4XUN_A_Repair,-4.28,-0.026583850931677
+4XUO,A,O69230,bacterial,Paenibacillus barcinonensis,GH10,156,4XUO_A_Repair,0.6,0.0038461538461538
+4XUP,A,O69230,bacterial,Paenibacillus barcinonensis,GH10,330,4XUP_A_Repair,5.94,0.018
+4XUQ,A,O69230,bacterial,Paenibacillus barcinonensis,GH10,161,4XUQ_A_Repair,-3.7,-0.0229813664596273
+4XUR,A,O69230,bacterial,Paenibacillus barcinonensis,GH10,161,4XUR_A_Repair,7.46,0.046335403726708
+4XUT,A,O69230,bacterial,Paenibacillus barcinonensis,GH10,161,4XUT_A_Repair,-10.99,-0.0682608695652173
+4XUY,A,A2QFV7,fungal,Aspergillus niger (strain ATCC MYA-4892 / CBS 513.88 / FGSC A1513),GH10,301,4XUY_A_Repair,-49.43,-0.16421926910299
+4XV0,A,G0RA32,fungal,Hypocrea jecorina (strain QM6a) (Trichoderma reesei),unknown,301,4XV0_A_Repair,-36.68,-0.121860465116279
+4XX6,B,S7Q6I2,fungal,Gloeophyllum trabeum (strain ATCC 11539 / FP-39264 / Madison 617) (Brown rot fungus),unknown,321,4XX6_B_Repair,-44.71,-0.1392834890965732
+5AY7,B,A0A140UHL2,eukaryote_non_fungal,Aegilops speltoides subsp. speltoides,unknown,326,5AY7_B_Repair,-20.7,-0.0634969325153374
+5DPN,A,Q7WTN6,bacterial,Rhodothermus marinus (Rhodothermus obamensis),GH10,166,5DPN_A_Repair,-13.68,-0.0824096385542168
+5EB8,A,O30700,bacterial,Bacillus sp. NG-27,GH10,354,5EB8_A_Repair,-51.84,-0.1464406779661017
+5EBA,A,O30700,bacterial,Bacillus sp. NG-27,GH10,354,5EBA_A_Repair,-27.97,-0.0790112994350282
+5EFD,A,O30700,bacterial,Bacillus sp. NG-27,GH10,354,5EFD_A_Repair,-67.08,-0.1894915254237288
+5EFF,A,O30700,bacterial,Bacillus sp. NG-27,GH10,354,5EFF_A_Repair,-46.7,-0.1319209039548022
+5EJ3,A,P26515,bacterial,Streptomyces lividans,GH11,191,5EJ3_A_Repair,-15.8,-0.0827225130890052
+5FXM,A,P51584,bacterial,Acetivibrio thermocellus (Hungateiclostridium thermocellum) (Clostridium thermocellum),GH10,274,5FXM_A_Repair,-56.94,-0.2078102189781021
+5GQD,A,Q7SI98,bacterial,Streptomyces olivaceoviridis (Streptomyces corchorusii),GH10,427,5GQD_A_Repair,-13.99,-0.0327634660421545
+5GQE,A,Q7SI98,bacterial,Streptomyces olivaceoviridis (Streptomyces corchorusii),GH10,429,5GQE_A_Repair,29.67,0.0691608391608391
+5HXV,A,W8VR85,fungal,Talaromyces pinophilus CF-2612,unknown,189,5HXV_A_Repair,11.34,0.06
+5JRM,A,X0M5X0,fungal,Fusarium oxysporum f. sp. vasinfectum 25433,unknown,189,5JRM_A_Repair,-9.15,-0.0484126984126984
+5JRN,A,X0M5X0,fungal,Fusarium oxysporum f. sp. vasinfectum 25433,unknown,189,5JRN_A_Repair,16.36,0.0865608465608465
+5K7P,A,P36217,fungal,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),GH11,190,5K7P_A_Repair,12.87,0.0677368421052631
+5K9Y,A,P18429,bacterial,Bacillus subtilis (strain 168),GH11,184,5K9Y_A_Repair,5.49,0.0298369565217391
+5M0K,A,D5UH90,bacterial,Cellulomonas flavigena (strain ATCC 482 / DSM 20109 / BCRC 11376 / JCM 18109 / NBRC 3775 / NCIMB 8073 / NRS 134),GH10,299,5M0K_A_Repair,5.71,0.0190969899665551
+5MRJ,A,A0A086SY89,fungal,Hapsidospora chrysogenum (strain ATCC 11550 / CBS 779.69 / DSM 880 / IAM 14645 / JCM 23072 / IMI 49137) (Acremonium chrysogenum),unknown,307,5MRJ_A_Repair,-3.77,-0.0122801302931596
+5RG4,A,P23360,fungal,Thermoascus aurantiacus,GH10,300,5RG4_A_Repair,-49.85,-0.1661666666666666
+5RG5,A,P23360,fungal,Thermoascus aurantiacus,GH10,301,5RG5_A_Repair,-60.46,-0.2008637873754153
+5RG6,A,P23360,fungal,Thermoascus aurantiacus,GH10,300,5RG6_A_Repair,-59.86,-0.1995333333333333
+5RG7,A,P23360,fungal,Thermoascus aurantiacus,GH10,300,5RG7_A_Repair,-61.6,-0.2053333333333333
+5RG8,A,P23360,fungal,Thermoascus aurantiacus,GH10,299,5RG8_A_Repair,-49.34,-0.1650167224080267
+5RG9,A,P23360,fungal,Thermoascus aurantiacus,GH10,300,5RG9_A_Repair,-59.94,-0.1998
+5RGA,A,P23360,fungal,Thermoascus aurantiacus,GH10,301,5RGA_A_Repair,-50.76,-0.1686378737541528
+5RGB,A,P23360,fungal,Thermoascus aurantiacus,GH10,299,5RGB_A_Repair,-57.98,-0.1939130434782608
+5RGC,A,P23360,fungal,Thermoascus aurantiacus,GH10,300,5RGC_A_Repair,-59.56,-0.1985333333333333
+5RGD,A,P23360,fungal,Thermoascus aurantiacus,GH10,300,5RGD_A_Repair,-63.99,-0.2133
+5RGE,A,P23360,fungal,Thermoascus aurantiacus,GH10,300,5RGE_A_Repair,-63.49,-0.2116333333333333
+5RGF,A,P23360,fungal,Thermoascus aurantiacus,GH10,301,5RGF_A_Repair,-60.44,-0.200797342192691
+5TVV,A,P18429,bacterial,Bacillus subtilis (strain 168),GH11,185,5TVV_A_Repair,-5.49,-0.0296756756756756
+5TVY,A,P18429,bacterial,Bacillus subtilis (strain 168),GH11,188,5TVY_A_Repair,-2.32,-0.0123404255319148
+5TZO,A,P18429,bacterial,Bacillus subtilis (strain 168),GH11,185,5TZO_A_Repair,-9.1,-0.0491891891891891
+5XC0,B,O30700,bacterial,Bacillus sp. NG-27,GH10,354,5XC0_B_Repair,-40.63,-0.114774011299435
+5XC1,A,O30700,bacterial,Bacillus sp. NG-27,GH10,354,5XC1_A_Repair,-66.39,-0.1875423728813559
+5XZO,A,D0QF43,fungal,Bispora sp. MEY-1,GH10,335,5XZO_A_Repair,-17.05,-0.0508955223880597
+5XZU,A,D0QF43,fungal,Bispora sp. MEY-1,GH10,334,5XZU_A_Repair,-20.01,-0.0599101796407185
+5Y3X,A,E4Q2A4,bacterial,Caldicellulosiruptor owensensis (strain ATCC 700167 / DSM 13100 / OL),GH10,329,5Y3X_A_Repair,-56.07,-0.1704255319148936
+5ZF3,A,P36217,fungal,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),GH11,189,5ZF3_A_Repair,-11.2,-0.0592592592592592
+5ZH0,A,P36217,fungal,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),GH11,189,5ZH0_A_Repair,-12.97,-0.0686243386243386
+5ZH9,A,P36217,fungal,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),GH11,189,5ZH9_A_Repair,-6.53,-0.0345502645502645
+5ZII,A,P36217,fungal,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),GH11,189,5ZII_A_Repair,-2.81,-0.0148677248677248
+5ZIW,A,P36217,fungal,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),GH11,189,5ZIW_A_Repair,-8.93,-0.0472486772486772
+5ZKZ,A,P36217,fungal,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),GH11,189,5ZKZ_A_Repair,3.05,0.0161375661375661
+5ZO0,A,P36217,fungal,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),GH11,189,5ZO0_A_Repair,-8.17,-0.0432275132275132
+6D5C,A,A0A4V8GZQ8,bacterial,Anaerocellum danielii,unknown,337,6D5C_A_Repair,-88.08,-0.2613649851632047
+6FJ4,A,P51584,bacterial,Acetivibrio thermocellus (Hungateiclostridium thermocellum) (Clostridium thermocellum),GH10,274,6FJ4_A_Repair,-55.04,-0.2008759124087591
+6JUG,A,P36217,fungal,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),GH11,189,6JUG_A_Repair,-6.19,-0.0327513227513227
+6JWB,A,P36217,fungal,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),GH11,189,6JWB_A_Repair,-0.17,-0.0008994708994708
+6JXL,A,P36217,fungal,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),GH11,189,6JXL_A_Repair,3.57,0.0188888888888888
+6JZP,A,P36217,fungal,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),GH11,189,6JZP_A_Repair,-9.53,-0.0504232804232804
+6K9O,A,P36217,fungal,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),GH11,189,6K9O_A_Repair,-9.34,-0.0494179894179894
+6K9R,A,P36217,fungal,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),GH11,189,6K9R_A_Repair,-4.98,-0.0263492063492063
+6K9W,A,P36217,fungal,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),GH11,189,6K9W_A_Repair,-1.73,-0.0091534391534391
+6K9X,A,P36217,fungal,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),GH11,189,6K9X_A_Repair,-15.95,-0.0843915343915343
+6KJL,A,Q9RC94,bacterial,Bacillus sp. 41M-1,GH11,328,6KJL_A_Repair,10.58,0.0322560975609756
+6KKA,A,Q9RC94,bacterial,Bacillus sp. 41M-1,GH11,327,6KKA_A_Repair,0.47,0.0014373088685015
+6KVV,A,P36217,fungal,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),GH11,190,6KVV_A_Repair,-22.33,-0.1175263157894736
+6KW9,A,P36217,fungal,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),GH11,190,6KW9_A_Repair,-11.35,-0.0597368421052631
+6KWC,A,P36217,fungal,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),GH11,191,6KWC_A_Repair,-0.68,-0.0035602094240837
+6KWD,A,P36217,fungal,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),GH11,189,6KWD_A_Repair,-5.74,-0.0303703703703703
+6KWE,A,P36217,fungal,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),GH11,189,6KWE_A_Repair,-3.85,-0.0203703703703703
+6KWF,A,P36217,fungal,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),GH11,190,6KWF_A_Repair,-18.29,-0.0962631578947368
+6KWG,A,P36217,fungal,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),GH11,189,6KWG_A_Repair,-9.22,-0.0487830687830687
+6KWH,A,P36217,fungal,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),GH11,189,6KWH_A_Repair,-3.41,-0.018042328042328
+6LPS,A,Q17TM8,bacterial,Halalkalibacterium halodurans (Bacillus halodurans),GH10,351,6LPS_A_Repair,-53.75,-0.1531339031339031
+6Q8M,A,A0A1L9WG58,fungal,Aspergillus aculeatus (strain ATCC 16872 / CBS 172.66 / WB 5094),unknown,321,6Q8M_A_Repair,-70.32,-0.2190654205607476
+6Q8N,A,A0A1L9WG58,fungal,Aspergillus aculeatus (strain ATCC 16872 / CBS 172.66 / WB 5094),unknown,321,6Q8N_A_Repair,-48.03,-0.149626168224299
+6QE8,A,P55329,fungal,Aspergillus niger,GH11,183,6QE8_A_Repair,-5.16,-0.0281967213114754
+6QFS,B,P07986,bacterial,Cellulomonas fimi,GH10,106,6QFS_B_Repair,14.3,0.1349056603773585
+6SGF,B,C7G9B5,bacterial,Roseburia intestinalis L1-82,unknown,132,6SGF_B_Repair,-0.77,-0.0058333333333333
+6WQW,A,L0EGW1,bacterial,Thermobacillus composti (strain DSM 18247 / JCM 13945 / KWC4),unknown,305,6WQW_A_Repair,-32.87,-0.1077704918032786
+6Y0H,A,C7YSL3,fungal,Fusarium vanettenii (strain ATCC MYA-4622 / CBS 123669 / FGSC 9596 / NRRL 45880 / 77-13-4) (Fusarium solani subsp. pisi),unknown,189,6Y0H_A_Repair,0.43,0.0022751322751322
+6Y8G,AAA,P51584,bacterial,Acetivibrio thermocellus (Hungateiclostridium thermocellum) (Clostridium thermocellum),GH10,273,6Y8G_AAA_Repair,,
+7CPK,A,P07528,bacterial,Halalkalibacterium halodurans (strain ATCC BAA-125 / DSM 18197 / FERM 7344 / JCM 9153 / C-125) (Bacillus halodurans),GH10,357,7CPK_A_Repair,-63.48,-0.1778151260504201
+7CPL,A,P07528,bacterial,Halalkalibacterium halodurans (strain ATCC BAA-125 / DSM 18197 / FERM 7344 / JCM 9153 / C-125) (Bacillus halodurans),GH10,358,7CPL_A_Repair,-62.19,-0.1737150837988826
+7DFM,A,A0A7G1MBT0,bacterial,Streptomyces olivaceoviridis (Streptomyces corchorusii),unknown,194,7DFM_A_Repair,-6.23,-0.0321134020618556
+7DFN,A,A0A7G1MBT0,bacterial,Streptomyces olivaceoviridis (Streptomyces corchorusii),unknown,194,7DFN_A_Repair,-3.17,-0.016340206185567
+7DFO,A,A0A7G1MBT0,bacterial,Streptomyces olivaceoviridis (Streptomyces corchorusii),unknown,194,7DFO_A_Repair,-6.65,-0.0342783505154639
+7ERL,A,A0A6N2X8R5,bacterial,Bacteroides intestinalis,unknown,545,7ERL_A_Repair,-53.15,-0.0975229357798165
+7K4P,A,P23360,fungal,Thermoascus aurantiacus,GH10,299,7K4P_A_Repair,-82.01,-0.2742809364548495
+7K4Q,B,P23360,fungal,Thermoascus aurantiacus,GH10,300,7K4Q_B_Repair,-76.46,-0.2548666666666666
+7K4R,A,P23360,fungal,Thermoascus aurantiacus,GH10,305,7K4R_A_Repair,-67.85,-0.2224590163934426
+7K4S,A,P23360,fungal,Thermoascus aurantiacus,GH10,301,7K4S_A_Repair,-19.54,-0.0649169435215946
+7K4T,A,P23360,fungal,Thermoascus aurantiacus,GH10,301,7K4T_A_Repair,-67.22,-0.2233222591362126
+7K4U,A,P23360,fungal,Thermoascus aurantiacus,GH10,305,7K4U_A_Repair,-65.02,-0.2131803278688524
+7K4V,A,P23360,fungal,Thermoascus aurantiacus,GH10,299,7K4V_A_Repair,-75.03,-0.2509364548494983
+7K4W,A,P23360,fungal,Thermoascus aurantiacus,GH10,286,7K4W_A_Repair,-67.88,-0.2373426573426573
+7K4X,A,P23360,fungal,Thermoascus aurantiacus,GH10,302,7K4X_A_Repair,-81.29,-0.2691721854304636
+7K4Y,A,P23360,fungal,Thermoascus aurantiacus,GH10,300,7K4Y_A_Repair,-14.02,-0.0467333333333333
+7K4Z,A,P23360,fungal,Thermoascus aurantiacus,GH10,301,7K4Z_A_Repair,-77.26,-0.2566777408637874
+7KV0,A,A0A0M9BNX9,bacterial,Paenibacillus xylanivorans,unknown,186,7KV0_A_Repair,-6.11,-0.0328494623655914
+7MGU,A,P36217,fungal,Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) (Trichoderma reesei),GH11,189,7MGU_A_Repair,47.61,0.2519047619047619
+7NL2,A,F7YXD6,bacterial,Pseudothermotoga thermarum DSM 5069,unknown,335,7NL2_A_Repair,-133.75,-0.3992537313432835
+7NN3,A,E4S6E9,bacterial,Caldicellulosiruptor acetigenus (strain ATCC 700853 / DSM 12137 / I77R1B) (Caldicellulosiruptor kristjanssonii),GH10,383,7NN3_A_Repair,-38.38,-0.1002088772845953
+7NWN,AAA,E4S6E9,bacterial,Caldicellulosiruptor acetigenus (strain ATCC 700853 / DSM 12137 / I77R1B) (Caldicellulosiruptor kristjanssonii),GH10,195,7NWN_AAA_Repair,,
+7NWO,AAA,E4S6E9,bacterial,Caldicellulosiruptor acetigenus (strain ATCC 700853 / DSM 12137 / I77R1B) (Caldicellulosiruptor kristjanssonii),GH10,191,7NWO_AAA_Repair,,
+7NWP,AAA,E4S6E9,bacterial,Caldicellulosiruptor acetigenus (strain ATCC 700853 / DSM 12137 / I77R1B) (Caldicellulosiruptor kristjanssonii),GH10,195,7NWP_AAA_Repair,,
+7NWQ,AAA,E4S6E9,bacterial,Caldicellulosiruptor acetigenus (strain ATCC 700853 / DSM 12137 / I77R1B) (Caldicellulosiruptor kristjanssonii),GH10,195,7NWQ_AAA_Repair,,
+7VUG,B,P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,338,7VUG_B_Repair,167.13,0.4944674556213018
+7VUH,B,P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,338,7VUH_B_Repair,156.62,0.4633727810650888
+7VUI,B,P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,338,7VUI_B_Repair,179.14,0.5299999999999999
+7VUJ,B,P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,338,7VUJ_B_Repair,202.52,0.5991715976331361
+7WH6,A,Q4WLG5,fungal,Aspergillus fumigatus (strain ATCC MYA-4609 / CBS 101355 / FGSC A1100 / Af293) (Neosartorya fumigata),unknown,319,7WH6_A_Repair,-73.11,-0.2291849529780564
+7WH7,A,Q4WLG5,fungal,Aspergillus fumigatus (strain ATCC MYA-4609 / CBS 101355 / FGSC A1100 / Af293) (Neosartorya fumigata),unknown,319,7WH7_A_Repair,-70.73,-0.2217241379310345
+7WHA,A,Q4WLG5,fungal,Aspergillus fumigatus (strain ATCC MYA-4609 / CBS 101355 / FGSC A1100 / Af293) (Neosartorya fumigata),unknown,319,7WHA_A_Repair,-65.3,-0.2047021943573667
+7WHE,A,Q4WLG5,fungal,Aspergillus fumigatus (strain ATCC MYA-4609 / CBS 101355 / FGSC A1100 / Af293) (Neosartorya fumigata),unknown,319,7WHE_A_Repair,-68.1,-0.2134796238244514
+7XN9,A,P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,476,7XN9_A_Repair,2.47,0.0051890756302521
+7XNA,A,P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,472,7XNA_A_Repair,29.45,0.0623940677966101
+7ZQ0,A,C7YSL3,fungal,Fusarium vanettenii (strain ATCC MYA-4622 / CBS 123669 / FGSC 9596 / NRRL 45880 / 77-13-4) (Fusarium solani subsp. pisi),unknown,189,7ZQ0_A_Repair,15.37,0.0813227513227513
+8AF4,A,C7YSL3,fungal,Fusarium vanettenii (strain ATCC MYA-4622 / CBS 123669 / FGSC 9596 / NRRL 45880 / 77-13-4) (Fusarium solani subsp. pisi),unknown,189,8AF4_A_Repair,9.25,0.0489417989417989
+8AF5,A,C7YSL3,fungal,Fusarium vanettenii (strain ATCC MYA-4622 / CBS 123669 / FGSC 9596 / NRRL 45880 / 77-13-4) (Fusarium solani subsp. pisi),unknown,189,8AF5_A_Repair,11.53,0.061005291005291
+8AF6,A,C7YSL3,fungal,Fusarium vanettenii (strain ATCC MYA-4622 / CBS 123669 / FGSC 9596 / NRRL 45880 / 77-13-4) (Fusarium solani subsp. pisi),unknown,189,8AF6_A_Repair,15.3,0.0809523809523809
+8B73,A,G8LZE0,bacterial,Acetivibrio clariflavus (strain DSM 19732 / NBRC 101661 / EBR45) (Clostridium clariflavum),unknown,405,8B73_A_Repair,-74.14,-0.1830617283950617
+8BBI,A,F7YXD6,bacterial,Pseudothermotoga thermarum DSM 5069,unknown,335,8BBI_A_Repair,-122.54,-0.3657910447761194
+8IH0,A,I3VTR8,bacterial,Thermoanaerobacterium saccharolyticum (strain DSM 8691 / JW/SL-YS485),unknown,184,8IH0_A_Repair,-14.55,-0.0790760869565217
+8IH1,A,I3VTR8,bacterial,Thermoanaerobacterium saccharolyticum (strain DSM 8691 / JW/SL-YS485),unknown,183,8IH1_A_Repair,-6.73,-0.036775956284153
+8JST,A,J7GPW4,unknown,uncultured microorganism,unknown,192,8JST_A_Repair,-6.28,-0.0327083333333333
+8KEU,A,G0RUP7,fungal,Hypocrea jecorina (strain QM6a) (Trichoderma reesei),GH11,190,8KEU_A_Repair,-16.62,-0.0874736842105263
+8KH3,A,P23360,fungal,Thermoascus aurantiacus,GH10,299,8KH3_A_Repair,-70.47,-0.235685618729097
+8QXY,A,P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,185,8QXY_A_Repair,-7.03,-0.038
+8QXZ,A,P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,185,8QXZ_A_Repair,-16.46,-0.0889729729729729
+8QY0,A,P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,185,8QY0_A_Repair,-9.47,-0.0511891891891891
+8QY1,A,P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,184,8QY1_A_Repair,-3.27,-0.0177717391304347
+8QY2,A,P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,185,8QY2_A_Repair,-19.9,-0.1075675675675675
+8QY3,A,P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,185,8QY3_A_Repair,-20.91,-0.113027027027027
+8R85,A,P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,185,8R85_A_Repair,-5.21,-0.0281621621621621
+8R86,A,P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,185,8R86_A_Repair,-11.2,-0.0605405405405405
+8RD5,A,P23360,fungal,Thermoascus aurantiacus,GH10,300,8RD5_A_Repair,-84.84,-0.2828
+8USE,A,P23360,fungal,Thermoascus aurantiacus,GH10,301,8USE_A_Repair,-59.58,-0.1979401993355481
+8USF,A,P23360,fungal,Thermoascus aurantiacus,GH10,301,8USF_A_Repair,-65.7,-0.2182724252491694
+8USG,A,P23360,fungal,Thermoascus aurantiacus,GH10,301,8USG_A_Repair,-55.46,-0.1842524916943521
+8USH,A,P23360,fungal,Thermoascus aurantiacus,GH10,301,8USH_A_Repair,-58.9,-0.1956810631229235
+8USI,A,P23360,fungal,Thermoascus aurantiacus,GH10,303,8USI_A_Repair,-51.8,-0.1709570957095709
+8USJ,B,P23360,fungal,Thermoascus aurantiacus,GH10,301,8USJ_B_Repair,-60.85,-0.2021594684385382
+8USK,A,P23360,fungal,Thermoascus aurantiacus,GH10,301,8USK_A_Repair,-65.83,-0.218704318936877
+8USL,A,P23360,fungal,Thermoascus aurantiacus,GH10,301,8USL_A_Repair,-56.09,-0.1863455149501661
+8X1D,A,I3VTR8,bacterial,Thermoanaerobacterium saccharolyticum (strain DSM 8691 / JW/SL-YS485),unknown,183,8X1D_A_Repair,-10.38,-0.0567213114754098
+8XY0,A,P07528,bacterial,Halalkalibacterium halodurans (strain ATCC BAA-125 / DSM 18197 / FERM 7344 / JCM 9153 / C-125) (Bacillus halodurans),GH10,353,8XY0_A_Repair,-54.94,-0.1556373937677053
+8XZX,A,Q0CMZ1,fungal,Aspergillus terreus (strain NIH 2624 / FGSC A1156),unknown,193,8XZX_A_Repair,10.45,0.0541450777202072
+8XZY,A,Q0CMZ1,fungal,Aspergillus terreus (strain NIH 2624 / FGSC A1156),unknown,189,8XZY_A_Repair,-8.52,-0.045079365079365
+8XZZ,A,Q0CMZ1,fungal,Aspergillus terreus (strain NIH 2624 / FGSC A1156),unknown,196,8XZZ_A_Repair,-5.66,-0.0288775510204081
+8Y00,A,Q0CMZ1,fungal,Aspergillus terreus (strain NIH 2624 / FGSC A1156),unknown,197,8Y00_A_Repair,-11.15,-0.0565989847715736
+8Y1M,A,P07528,bacterial,Halalkalibacterium halodurans (strain ATCC BAA-125 / DSM 18197 / FERM 7344 / JCM 9153 / C-125) (Bacillus halodurans),GH10,358,8Y1M_A_Repair,-58.96,-0.1646927374301676
+8YEA,A,I3VTR8,bacterial,Thermoanaerobacterium saccharolyticum (strain DSM 8691 / JW/SL-YS485),unknown,183,8YEA_A_Repair,18.0,0.0983606557377049
+8YJI,A,A0A2T4BZZ5,fungal,Trichoderma longibrachiatum ATCC 18648,unknown,183,8YJI_A_Repair,3.92,0.0214207650273224
+8YJJ,A,A0A2T4BZZ5,fungal,Trichoderma longibrachiatum ATCC 18648,unknown,183,8YJJ_A_Repair,-13.95,-0.0762295081967213
+8YPX,A,I3VTR8,bacterial,Thermoanaerobacterium saccharolyticum (strain DSM 8691 / JW/SL-YS485),unknown,184,8YPX_A_Repair,1.17,0.0063586956521739
+8YYN,A,I3VTR8,bacterial,Thermoanaerobacterium saccharolyticum (strain DSM 8691 / JW/SL-YS485),unknown,183,8YYN_A_Repair,-4.94,-0.0269945355191256
+8YYO,A,I3VTR8,bacterial,Thermoanaerobacterium saccharolyticum (strain DSM 8691 / JW/SL-YS485),unknown,183,8YYO_A_Repair,-17.94,-0.0980327868852459

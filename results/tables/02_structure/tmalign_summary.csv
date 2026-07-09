@@ -1,0 +1,12 @@
+metric,value,unit
+comparisons,631,count
+mean_best_tm_score,0.928,score
+median_best_tm_score,0.982,score
+minimum_best_tm_score,0.357,score
+maximum_best_tm_score,1.000,score
+mean_rmsd,1.206,angstrom
+median_rmsd,0.700,angstrom
+minimum_rmsd,0.110,angstrom
+maximum_rmsd,5.990,angstrom
+mean_aligned_sequence_identity,0.465,fraction
+median_aligned_sequence_identity,0.410,fraction

@@ -1,0 +1,5 @@
+group,sequences,alignment_length,conserved_positions_90,conserved_percent,conservation_rule,source_alignment
+bacterial_GH10,342,7473,19,0.25424862839555734,dominant_residue_count / total_sequences >= 0.90,/home/ubuntu/xylanase-thesis/data/curated/missing_splits/bacterial_GH10_aligned.fasta
+bacterial_GH11,117,2428,39,1.6062602965403623,dominant_residue_count / total_sequences >= 0.90,/home/ubuntu/xylanase-thesis/data/curated/missing_splits/bacterial_GH11_aligned.fasta
+fungal_GH10,64,1284,32,2.4922118380062304,dominant_residue_count / total_sequences >= 0.90,/home/ubuntu/xylanase-thesis/data/curated/missing_splits/fungal_GH10_aligned.fasta
+fungal_GH11,114,1572,25,1.5903307888040712,dominant_residue_count / total_sequences >= 0.90,/home/ubuntu/xylanase-thesis/data/curated/missing_splits/fungal_GH11_aligned.fasta

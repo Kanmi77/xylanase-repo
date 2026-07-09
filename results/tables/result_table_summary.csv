@@ -1,0 +1,8 @@
+section,section_name,tables,ready_tables,total_rows,total_size_bytes
+01_sequence,Sequence analysis,4,4,716,1083170
+02_structure,Structure analysis,3,3,465,98963
+03_foldx,FoldX stability analysis,3,3,3398,445157
+04_docking,Molecular docking analysis,4,4,1139,189424
+05_ml,Machine-learning analysis,7,7,19812,2294635
+06_md,Molecular-dynamics analysis,5,5,72,27523
+07_integration,Integrated candidate prioritisation,6,6,5946,871788
