@@ -68,3 +68,9 @@ results/05_docking/vina_outputs/
 
 # Temporary files
 None
+
+# Extra local workflow/material folders not required for main Snakemake workflow
+results/workflow/
+scripts/workflow/
+docs/review/
+results/source_tables/
