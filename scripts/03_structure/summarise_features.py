@@ -19,7 +19,7 @@ OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 MASTER_FILE = (
     PROJECT_DIR
-    / "data/curated/xylanase_master_gh10_gh11_frozen_thesis_with_refseq_experimental_metadata.csv"
+    / "data/curated/master_metadata.csv"
 )
 
 PDB_FEATURE_FILE = (
@@ -29,7 +29,7 @@ PDB_FEATURE_FILE = (
 
 MODELLER_CANDIDATE_FILES = [
     PROJECT_DIR
-    / "results/structure_features/combined_structural_features_frozen_thesis.csv",
+    / "results/structure_features/combined_structural_features.csv",
     PROJECT_DIR
     / "results/structural_features_foldx_summary/structural_features_with_calculated_normalised_values.csv",
     PROJECT_DIR

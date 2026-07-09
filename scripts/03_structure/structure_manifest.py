@@ -178,8 +178,8 @@ def prepare_structure_manifest(
     source = source[source["uniprot_accession"].isin(master_accessions)].copy()
     after_filter = len(source)
 
-    logger.write(f"Source manifest rows before frozen-master filter: {before_filter}")
-    logger.write(f"Source manifest rows after frozen-master filter: {after_filter}")
+    logger.write(f"Source manifest rows before archive-master filter: {before_filter}")
+    logger.write(f"Source manifest rows after archive-master filter: {after_filter}")
 
     if "structure_source" not in source.columns:
         source["structure_source"] = "unknown"

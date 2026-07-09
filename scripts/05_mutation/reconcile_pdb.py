@@ -20,12 +20,12 @@ AA3_TO_1 = {
 }
 
 
-def is_frozen(path: Path) -> bool:
-    return "frozen" in str(path).lower()
+def is_archived(path: Path) -> bool:
+    return "archived" in str(path).lower()
 
 
 def read_csv(path: Path) -> Optional[pd.DataFrame]:
-    if not path.exists() or is_frozen(path):
+    if not path.exists() or is_archived(path):
         return None
     try:
         return pd.read_csv(path, low_memory=False)
@@ -37,7 +37,7 @@ def read_csv(path: Path) -> Optional[pd.DataFrame]:
 def first_existing(root: Path, candidates: list[str]) -> Optional[Path]:
     for rel in candidates:
         p = root / rel
-        if p.exists() and not is_frozen(p):
+        if p.exists() and not is_archived(p):
             return p
     return None
 
@@ -209,7 +209,7 @@ def find_docking_tables(root: Path) -> list[Path]:
             continue
 
         for p in base.rglob("*.csv"):
-            if is_frozen(p):
+            if is_archived(p):
                 continue
 
             name = str(p).lower()
@@ -450,7 +450,7 @@ def main():
     outdir.mkdir(parents=True, exist_ok=True)
 
     print(f"[INFO] Project root: {root}")
-    print("[INFO] Frozen/Snakemake files will be ignored.")
+    print("[INFO] Archived/Snakemake files will be ignored.")
     print(f"[INFO] Output folder: {outdir}")
 
     pdb = load_pdb_candidates(root, args.max_pdb)
@@ -597,7 +597,7 @@ def main():
     report_lines = []
 
     report_lines.append("# PDB mutation/docking reconciliation report\n\n")
-    report_lines.append("Frozen/Snakemake files were ignored.\n\n")
+    report_lines.append("Archived/Snakemake files were ignored.\n\n")
     report_lines.append(f"- PDB targets reconciled: {len(pdb)}\n")
     report_lines.append(
         f"- FoldX-ready PDB paths found: "

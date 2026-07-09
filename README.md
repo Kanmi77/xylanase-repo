@@ -28,7 +28,7 @@ Each stage contains one public runner script named `run_*.py` and the supporting
 | Stage folder | Public runner | Thesis workflow stage |
 |---|---|---|
 | `scripts/01_data_curation/` | `run_data_curation.py` | Data acquisition, UniProt/CAZy/BRENDA/PDB/RefSeq curation |
-| `scripts/02_sequence_phylogeny/` | `run_sequence_phylogeny.py` | Sequence features, alignment, phylogeny and conservation |
+| `scripts/02_sequence/` | `run_sequence.py` | Sequence features, alignment, phylogeny and conservation |
 | `scripts/03_structure_analysis/` | `run_structure_analysis.py` | PDB/MODELLER structural features and TM-align validation |
 | `scripts/04_foldx/` | `run_foldx_analysis.py` | FoldX wild-type stability and mutation ΔΔG analysis |
 | `scripts/05_mutation_screening/` | `run_mutation_screening.py` | Mutation panel preparation and parsing |
@@ -44,7 +44,7 @@ Each stage contains one public runner script named `run_*.py` and the supporting
 | Folder | Contents |
 |---|---|
 | `results/data_curation/` | Dataset preparation outputs |
-| `results/sequence_phylogeny/` | Sequence, conservation and thermal-label outputs |
+| `results/sequence/` | Sequence, conservation and thermal-label outputs |
 | `results/structure_analysis/` | Structural feature and TM-align outputs |
 | `results/foldx/` | FoldX wild-type and mutation summaries |
 | `results/mutation_screening/` | Mutation candidate outputs |

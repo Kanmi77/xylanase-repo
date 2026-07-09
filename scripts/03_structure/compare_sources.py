@@ -12,7 +12,7 @@ OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
 MASTER_FILES = [
-    PROJECT_DIR / "data/curated/xylanase_master_gh10_gh11_frozen_thesis_with_refseq_experimental_metadata.csv",
+    PROJECT_DIR / "data/curated/master_metadata.csv",
     PROJECT_DIR / "data/curated/xylanase_master_all_curated_with_brenda.csv",
     PROJECT_DIR / "data/curated/xylanase_master_all_curated.csv",
 ]
@@ -30,14 +30,14 @@ MODELLER_FILES = [
 ]
 
 COMBINED_FILES = [
-    PROJECT_DIR / "results/structure_features/combined_structural_features_frozen_thesis.csv",
-    PROJECT_DIR / "results/structure_features/combined_structural_features_group_summary_frozen_thesis.csv",
+    PROJECT_DIR / "results/structure_features/combined_structural_features.csv",
+    PROJECT_DIR / "results/structure_features/combined_structural_features_group_summary.csv",
     PROJECT_DIR / "results/structural_features_foldx_summary/structural_features_with_calculated_normalised_values.csv",
 ]
 
 TMALIGN_FILES = [
     PROJECT_DIR / "results/structures/tmalign_best_reference_per_model.csv",
-    PROJECT_DIR / "results/structures/tmalign_results_frozen_thesis.csv",
+    PROJECT_DIR / "results/structures/tmalign_results.csv",
     PROJECT_DIR / "results/reports/tmalign_best_reference_overall_summary.csv",
 ]
 

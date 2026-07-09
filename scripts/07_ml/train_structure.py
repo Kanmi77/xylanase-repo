@@ -17,7 +17,7 @@ OUTDIR.mkdir(parents=True, exist_ok=True)
 
 META_PATH = Path("results/experimental_ml_correction/combined_60c_aligned_classifier/combined_60c_aligned_deduplicated_nonconflict.csv")
 SEQ_FEATURE_PATH = Path("results/experimental_ml_correction/combined_60c_aligned_classifier/combined_60c_aligned_sequence_features.csv")
-STRUCT_PATH = Path("results/structure_features/combined_structural_features_frozen_thesis.csv")
+STRUCT_PATH = Path("results/structure_features/combined_structural_features.csv")
 MAP_PATH = Path("results/experimental_ml_correction/combined_60c_sequence_structure_classifier/sequence_structure_mapping.csv")
 
 meta = pd.read_csv(META_PATH)

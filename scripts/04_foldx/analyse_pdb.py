@@ -13,7 +13,7 @@ OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 MASTER_FILE = (
     PROJECT_DIR
-    / "data/curated/xylanase_master_gh10_gh11_frozen_thesis_with_refseq_experimental_metadata.csv"
+    / "data/curated/master_metadata.csv"
 )
 
 PDB_WT_FILE = (

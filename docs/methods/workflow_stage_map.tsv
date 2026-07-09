@@ -1,8 +1,8 @@
 thesis_section	repo_stage	expected_final_outputs
 Data acquisition and curation	01_data_curation	master curated dataset; GH10/GH11 split files; BRENDA/external thermal labels
-Physicochemical analysis	02_sequence_phylogeny	ProtParam features; protein size table; secondary-structure fractions
-FASTA/MSA/Phylogeny	02_sequence_phylogeny	group FASTA; MAFFT alignments; FastTree trees; tree summaries
-Conservation analysis	02_sequence_phylogeny	conserved positions; thermal contrast positions; mapped residue lists
+Physicochemical analysis	02_sequence	ProtParam features; protein size table; secondary-structure fractions
+FASTA/MSA/Phylogeny	02_sequence	group FASTA; MAFFT alignments; FastTree trees; tree summaries
+Conservation analysis	02_sequence	conserved positions; thermal contrast positions; mapped residue lists
 Experimental/PDB structures	03_structure_analysis	PDB inventory; chosen chain manifest; downloaded coordinates
 MODELLER structures	03_structure_analysis	MODELLER model manifest; TM-align validation; 631 model records
 Structural features	03_structure_analysis	structural feature table; PDB/MODELLER source-stratified features

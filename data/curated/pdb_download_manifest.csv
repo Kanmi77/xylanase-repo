@@ -1,0 +1,234 @@
+uniprot_accession,organism_type,organism,gh_family,pdb_id,download_format,download_url,local_path,download_status,download_error,bytes
+G0RUP7,fungal,Hypocrea jecorina (strain QM6a) (Trichoderma reesei),GH11,8KEU,pdb,https://files.rcsb.org/download/8KEU.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/8KEU.pdb,downloaded,,318006
+P07986,bacterial,Cellulomonas fimi,GH10,1EXG,pdb,https://files.rcsb.org/download/1EXG.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1EXG.pdb,downloaded,,142560
+P07986,bacterial,Cellulomonas fimi,GH10,1EXH,pdb,https://files.rcsb.org/download/1EXH.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1EXH.pdb,downloaded,,2480301
+P07986,bacterial,Cellulomonas fimi,GH10,1EXP,pdb,https://files.rcsb.org/download/1EXP.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1EXP.pdb,downloaded,,247860
+P07986,bacterial,Cellulomonas fimi,GH10,1FH7,pdb,https://files.rcsb.org/download/1FH7.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1FH7.pdb,downloaded,,253206
+P07986,bacterial,Cellulomonas fimi,GH10,1FH8,pdb,https://files.rcsb.org/download/1FH8.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1FH8.pdb,downloaded,,253044
+P07986,bacterial,Cellulomonas fimi,GH10,1FH9,pdb,https://files.rcsb.org/download/1FH9.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1FH9.pdb,downloaded,,251100
+P07986,bacterial,Cellulomonas fimi,GH10,1FHD,pdb,https://files.rcsb.org/download/1FHD.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1FHD.pdb,downloaded,,253206
+P07986,bacterial,Cellulomonas fimi,GH10,1J01,pdb,https://files.rcsb.org/download/1J01.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1J01.pdb,downloaded,,241623
+P07986,bacterial,Cellulomonas fimi,GH10,2EXO,pdb,https://files.rcsb.org/download/2EXO.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/2EXO.pdb,downloaded,,226314
+P07986,bacterial,Cellulomonas fimi,GH10,2HIS,pdb,https://files.rcsb.org/download/2HIS.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/2HIS.pdb,downloaded,,241866
+P07986,bacterial,Cellulomonas fimi,GH10,2XYL,pdb,https://files.rcsb.org/download/2XYL.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/2XYL.pdb,downloaded,,237573
+P07986,bacterial,Cellulomonas fimi,GH10,3CUF,pdb,https://files.rcsb.org/download/3CUF.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/3CUF.pdb,downloaded,,264951
+P07986,bacterial,Cellulomonas fimi,GH10,3CUG,pdb,https://files.rcsb.org/download/3CUG.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/3CUG.pdb,downloaded,,277749
+P07986,bacterial,Cellulomonas fimi,GH10,3CUH,pdb,https://files.rcsb.org/download/3CUH.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/3CUH.pdb,downloaded,,266976
+P07986,bacterial,Cellulomonas fimi,GH10,3CUI,pdb,https://files.rcsb.org/download/3CUI.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/3CUI.pdb,downloaded,,515889
+P07986,bacterial,Cellulomonas fimi,GH10,3CUJ,pdb,https://files.rcsb.org/download/3CUJ.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/3CUJ.pdb,downloaded,,269730
+P07986,bacterial,Cellulomonas fimi,GH10,6QFS,pdb,https://files.rcsb.org/download/6QFS.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/6QFS.pdb,downloaded,,1157733
+Q00177,fungal,Emericella nidulans (strain FGSC A4 / ATCC 38163 / CBS 112.46 / NRRL 194 / M139) (Aspergillus nidulans),GH10,1TA3,pdb,https://files.rcsb.org/download/1TA3.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1TA3.pdb,downloaded,,476685
+Q9HFH0,fungal,Talaromyces funiculosus (Fruitlet core rot fungus) (Penicillium funiculosum),GH11,1TE1,pdb,https://files.rcsb.org/download/1TE1.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1TE1.pdb,downloaded,,361989
+Q9HFH0,fungal,Talaromyces funiculosus (Fruitlet core rot fungus) (Penicillium funiculosum),GH11,3WP3,pdb,https://files.rcsb.org/download/3WP3.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/3WP3.pdb,downloaded,,297351
+B4XVN1,bacterial,Streptomyces sp,GH10,3WUB,pdb,https://files.rcsb.org/download/3WUB.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/3WUB.pdb,downloaded,,263493
+B4XVN1,bacterial,Streptomyces sp,GH10,3WUE,pdb,https://files.rcsb.org/download/3WUE.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/3WUE.pdb,downloaded,,259686
+B4XVN1,bacterial,Streptomyces sp,GH10,3WUF,pdb,https://files.rcsb.org/download/3WUF.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/3WUF.pdb,downloaded,,272403
+B4XVN1,bacterial,Streptomyces sp,GH10,3WUG,pdb,https://files.rcsb.org/download/3WUG.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/3WUG.pdb,downloaded,,271431
+C6CRV0,bacterial,Paenibacillus sp. (strain JDR-2),GH10,3RDK,pdb,https://files.rcsb.org/download/3RDK.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/3RDK.pdb,downloaded,,1096092
+C6CRV0,bacterial,Paenibacillus sp. (strain JDR-2),GH10,3RO8,pdb,https://files.rcsb.org/download/3RO8.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/3RO8.pdb,downloaded,,3984471
+C6CRV0,bacterial,Paenibacillus sp. (strain JDR-2),GH10,4E4P,pdb,https://files.rcsb.org/download/4E4P.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/4E4P.pdb,downloaded,,847422
+O43097,fungal,Thermomyces lanuginosus (Humicola lanuginosa),GH11,1YNA,pdb,https://files.rcsb.org/download/1YNA.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1YNA.pdb,downloaded,,158598
+P26515,bacterial,Streptomyces lividans,GH11,5EJ3,pdb,https://files.rcsb.org/download/5EJ3.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/5EJ3.pdb,downloaded,,601263
+P54865,bacterial,Cellulomonas fimi,GH11,1E5B,pdb,https://files.rcsb.org/download/1E5B.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1E5B.pdb,downloaded,,110322
+P54865,bacterial,Cellulomonas fimi,GH11,1E5C,pdb,https://files.rcsb.org/download/1E5C.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1E5C.pdb,downloaded,,496287
+P54865,bacterial,Cellulomonas fimi,GH11,1HEH,pdb,https://files.rcsb.org/download/1HEH.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1HEH.pdb,downloaded,,112509
+P54865,bacterial,Cellulomonas fimi,GH11,1HEJ,pdb,https://files.rcsb.org/download/1HEJ.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1HEJ.pdb,downloaded,,501633
+P54865,bacterial,Cellulomonas fimi,GH11,1XBD,pdb,https://files.rcsb.org/download/1XBD.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1XBD.pdb,downloaded,,501633
+P54865,bacterial,Cellulomonas fimi,GH11,2XBD,pdb,https://files.rcsb.org/download/2XBD.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/2XBD.pdb,downloaded,,110889
+P55329,fungal,Aspergillus niger,GH11,1T6G,pdb,https://files.rcsb.org/download/1T6G.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1T6G.pdb,downloaded,,807651
+P55329,fungal,Aspergillus niger,GH11,1UKR,pdb,https://files.rcsb.org/download/1UKR.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1UKR.pdb,downloaded,,516294
+P55329,fungal,Aspergillus niger,GH11,2QZ2,pdb,https://files.rcsb.org/download/2QZ2.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/2QZ2.pdb,downloaded,,283176
+P55329,fungal,Aspergillus niger,GH11,6QE8,pdb,https://files.rcsb.org/download/6QE8.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/6QE8.pdb,downloaded,,181197
+P56588,fungal,Penicillium simplicissimum,GH10,1B30,pdb,https://files.rcsb.org/download/1B30.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1B30.pdb,downloaded,,242595
+P56588,fungal,Penicillium simplicissimum,GH10,1B31,pdb,https://files.rcsb.org/download/1B31.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1B31.pdb,downloaded,,245511
+P56588,fungal,Penicillium simplicissimum,GH10,1B3V,pdb,https://files.rcsb.org/download/1B3V.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1B3V.pdb,downloaded,,243648
+P56588,fungal,Penicillium simplicissimum,GH10,1B3W,pdb,https://files.rcsb.org/download/1B3W.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1B3W.pdb,downloaded,,237816
+P56588,fungal,Penicillium simplicissimum,GH10,1B3X,pdb,https://files.rcsb.org/download/1B3X.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1B3X.pdb,downloaded,,248265
+P56588,fungal,Penicillium simplicissimum,GH10,1B3Y,pdb,https://files.rcsb.org/download/1B3Y.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1B3Y.pdb,downloaded,,243810
+P56588,fungal,Penicillium simplicissimum,GH10,1B3Z,pdb,https://files.rcsb.org/download/1B3Z.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1B3Z.pdb,downloaded,,257094
+P56588,fungal,Penicillium simplicissimum,GH10,1BG4,pdb,https://files.rcsb.org/download/1BG4.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1BG4.pdb,downloaded,,268920
+Q9UV68,fungal,Neocallimastix patriciarum (Rumen fungus),GH11,3WP4,pdb,https://files.rcsb.org/download/3WP4.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/3WP4.pdb,downloaded,,374382
+Q9UV68,fungal,Neocallimastix patriciarum (Rumen fungus),GH11,3WP5,pdb,https://files.rcsb.org/download/3WP5.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/3WP5.pdb,downloaded,,375273
+Q9UV68,fungal,Neocallimastix patriciarum (Rumen fungus),GH11,3WP6,pdb,https://files.rcsb.org/download/3WP6.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/3WP6.pdb,downloaded,,373329
+O69230,bacterial,Paenibacillus barcinonensis,GH10,4W8L,pdb,https://files.rcsb.org/download/4W8L.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/4W8L.pdb,downloaded,,776790
+O69230,bacterial,Paenibacillus barcinonensis,GH10,4XUN,pdb,https://files.rcsb.org/download/4XUN.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/4XUN.pdb,downloaded,,374787
+O69230,bacterial,Paenibacillus barcinonensis,GH10,4XUO,pdb,https://files.rcsb.org/download/4XUO.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/4XUO.pdb,downloaded,,241137
+O69230,bacterial,Paenibacillus barcinonensis,GH10,4XUP,pdb,https://files.rcsb.org/download/4XUP.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/4XUP.pdb,downloaded,,1138131
+O69230,bacterial,Paenibacillus barcinonensis,GH10,4XUQ,pdb,https://files.rcsb.org/download/4XUQ.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/4XUQ.pdb,downloaded,,374544
+O69230,bacterial,Paenibacillus barcinonensis,GH10,4XUR,pdb,https://files.rcsb.org/download/4XUR.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/4XUR.pdb,downloaded,,388557
+O69230,bacterial,Paenibacillus barcinonensis,GH10,4XUT,pdb,https://files.rcsb.org/download/4XUT.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/4XUT.pdb,downloaded,,366039
+P07528,bacterial,Halalkalibacterium halodurans (strain ATCC BAA-125 / DSM 18197 / FERM 7344 / JCM 9153 / C-125) (Bacillus halodurans),GH10,2UWF,pdb,https://files.rcsb.org/download/2UWF.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/2UWF.pdb,downloaded,,300834
+P07528,bacterial,Halalkalibacterium halodurans (strain ATCC BAA-125 / DSM 18197 / FERM 7344 / JCM 9153 / C-125) (Bacillus halodurans),GH10,7CPK,pdb,https://files.rcsb.org/download/7CPK.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/7CPK.pdb,downloaded,,573561
+P07528,bacterial,Halalkalibacterium halodurans (strain ATCC BAA-125 / DSM 18197 / FERM 7344 / JCM 9153 / C-125) (Bacillus halodurans),GH10,7CPL,pdb,https://files.rcsb.org/download/7CPL.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/7CPL.pdb,downloaded,,584577
+P07528,bacterial,Halalkalibacterium halodurans (strain ATCC BAA-125 / DSM 18197 / FERM 7344 / JCM 9153 / C-125) (Bacillus halodurans),GH10,8XY0,pdb,https://files.rcsb.org/download/8XY0.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/8XY0.pdb,downloaded,,302778
+P07528,bacterial,Halalkalibacterium halodurans (strain ATCC BAA-125 / DSM 18197 / FERM 7344 / JCM 9153 / C-125) (Bacillus halodurans),GH10,8Y1M,pdb,https://files.rcsb.org/download/8Y1M.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/8Y1M.pdb,downloaded,,630504
+P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,1BCX,pdb,https://files.rcsb.org/download/1BCX.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1BCX.pdb,downloaded,,159570
+P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,1BVV,pdb,https://files.rcsb.org/download/1BVV.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1BVV.pdb,downloaded,,156816
+P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,1C5H,pdb,https://files.rcsb.org/download/1C5H.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1C5H.pdb,downloaded,,155682
+P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,1C5I,pdb,https://files.rcsb.org/download/1C5I.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1C5I.pdb,downloaded,,158598
+P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,1HV0,pdb,https://files.rcsb.org/download/1HV0.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1HV0.pdb,downloaded,,160704
+P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,1HV1,pdb,https://files.rcsb.org/download/1HV1.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1HV1.pdb,downloaded,,157869
+P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,1XNB,pdb,https://files.rcsb.org/download/1XNB.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1XNB.pdb,downloaded,,157464
+P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,1XNC,pdb,https://files.rcsb.org/download/1XNC.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1XNC.pdb,downloaded,,154548
+P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,2BVV,pdb,https://files.rcsb.org/download/2BVV.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/2BVV.pdb,downloaded,,155439
+P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,3LB9,pdb,https://files.rcsb.org/download/3LB9.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/3LB9.pdb,downloaded,,382401
+P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,3VZJ,pdb,https://files.rcsb.org/download/3VZJ.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/3VZJ.pdb,downloaded,,517752
+P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,3VZK,pdb,https://files.rcsb.org/download/3VZK.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/3VZK.pdb,downloaded,,311607
+P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,3VZL,pdb,https://files.rcsb.org/download/3VZL.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/3VZL.pdb,downloaded,,550314
+P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,3VZM,pdb,https://files.rcsb.org/download/3VZM.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/3VZM.pdb,downloaded,,164592
+P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,3VZN,pdb,https://files.rcsb.org/download/3VZN.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/3VZN.pdb,downloaded,,298485
+P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,3VZO,pdb,https://files.rcsb.org/download/3VZO.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/3VZO.pdb,downloaded,,173259
+P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,7VUG,pdb,https://files.rcsb.org/download/7VUG.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/7VUG.pdb,downloaded,,886383
+P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,7VUH,pdb,https://files.rcsb.org/download/7VUH.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/7VUH.pdb,downloaded,,830412
+P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,7VUI,pdb,https://files.rcsb.org/download/7VUI.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/7VUI.pdb,downloaded,,834300
+P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,7VUJ,pdb,https://files.rcsb.org/download/7VUJ.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/7VUJ.pdb,downloaded,,836001
+P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,7XN9,pdb,https://files.rcsb.org/download/7XN9.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/7XN9.pdb,downloaded,,672219
+P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,7XNA,pdb,https://files.rcsb.org/download/7XNA.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/7XNA.pdb,downloaded,,361098
+P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,8QXY,pdb,https://files.rcsb.org/download/8QXY.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/8QXY.pdb,downloaded,,342549
+P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,8QXZ,pdb,https://files.rcsb.org/download/8QXZ.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/8QXZ.pdb,downloaded,,312822
+P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,8QY0,pdb,https://files.rcsb.org/download/8QY0.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/8QY0.pdb,downloaded,,316467
+P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,8QY1,pdb,https://files.rcsb.org/download/8QY1.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/8QY1.pdb,downloaded,,310554
+P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,8QY2,pdb,https://files.rcsb.org/download/8QY2.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/8QY2.pdb,downloaded,,170262
+P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,8QY3,pdb,https://files.rcsb.org/download/8QY3.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/8QY3.pdb,downloaded,,189783
+P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,8R85,pdb,https://files.rcsb.org/download/8R85.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/8R85.pdb,downloaded,,311688
+P09850,bacterial,Niallia circulans (Bacillus circulans),GH11,8R86,pdb,https://files.rcsb.org/download/8R86.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/8R86.pdb,downloaded,,318168
+P10478,bacterial,Acetivibrio thermocellus (strain ATCC 27405 / DSM 1237 / JCM 9322 / NBRC 103400 / NCIMB 10682 / NRRL B-4536 / VPI 7372) (Clostridium thermocellum),GH10,1JJF,pdb,https://files.rcsb.org/download/1JJF.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1JJF.pdb,downloaded,,211491
+P10478,bacterial,Acetivibrio thermocellus (strain ATCC 27405 / DSM 1237 / JCM 9322 / NBRC 103400 / NCIMB 10682 / NRRL B-4536 / VPI 7372) (Clostridium thermocellum),GH10,1JT2,pdb,https://files.rcsb.org/download/1JT2.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1JT2.pdb,downloaded,,218457
+P10478,bacterial,Acetivibrio thermocellus (strain ATCC 27405 / DSM 1237 / JCM 9322 / NBRC 103400 / NCIMB 10682 / NRRL B-4536 / VPI 7372) (Clostridium thermocellum),GH10,1XYZ,pdb,https://files.rcsb.org/download/1XYZ.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1XYZ.pdb,downloaded,,492966
+P14768,bacterial,Cellvibrio japonicus (strain Ueda107) (Pseudomonas fluorescens subsp. cellulosa),GH10,1CLX,pdb,https://files.rcsb.org/download/1CLX.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1CLX.pdb,downloaded,,1040121
+P14768,bacterial,Cellvibrio japonicus (strain Ueda107) (Pseudomonas fluorescens subsp. cellulosa),GH10,1E5N,pdb,https://files.rcsb.org/download/1E5N.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1E5N.pdb,downloaded,,503496
+P14768,bacterial,Cellvibrio japonicus (strain Ueda107) (Pseudomonas fluorescens subsp. cellulosa),GH10,1E8R,pdb,https://files.rcsb.org/download/1E8R.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1E8R.pdb,downloaded,,311202
+P14768,bacterial,Cellvibrio japonicus (strain Ueda107) (Pseudomonas fluorescens subsp. cellulosa),GH10,1QLD,pdb,https://files.rcsb.org/download/1QLD.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1QLD.pdb,downloaded,,75330
+P14768,bacterial,Cellvibrio japonicus (strain Ueda107) (Pseudomonas fluorescens subsp. cellulosa),GH10,1W2P,pdb,https://files.rcsb.org/download/1W2P.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1W2P.pdb,downloaded,,1348083
+P14768,bacterial,Cellvibrio japonicus (strain Ueda107) (Pseudomonas fluorescens subsp. cellulosa),GH10,1W2V,pdb,https://files.rcsb.org/download/1W2V.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1W2V.pdb,downloaded,,1424628
+P14768,bacterial,Cellvibrio japonicus (strain Ueda107) (Pseudomonas fluorescens subsp. cellulosa),GH10,1W32,pdb,https://files.rcsb.org/download/1W32.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1W32.pdb,downloaded,,1394496
+P14768,bacterial,Cellvibrio japonicus (strain Ueda107) (Pseudomonas fluorescens subsp. cellulosa),GH10,1W3H,pdb,https://files.rcsb.org/download/1W3H.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1W3H.pdb,downloaded,,681696
+P14768,bacterial,Cellvibrio japonicus (strain Ueda107) (Pseudomonas fluorescens subsp. cellulosa),GH10,1XYS,pdb,https://files.rcsb.org/download/1XYS.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1XYS.pdb,downloaded,,87237
+P29127,fungal,Neocallimastix patriciarum (Rumen fungus),GH11,2C1F,pdb,https://files.rcsb.org/download/2C1F.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/2C1F.pdb,downloaded,,197154
+P29127,fungal,Neocallimastix patriciarum (Rumen fungus),GH11,2VG9,pdb,https://files.rcsb.org/download/2VG9.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/2VG9.pdb,downloaded,,201771
+P40942,bacterial,Thermoclostridium stercorarium (Clostridium stercorarium),GH10,2DEP,pdb,https://files.rcsb.org/download/2DEP.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/2DEP.pdb,downloaded,,549666
+P40943,bacterial,Geobacillus stearothermophilus (Bacillus stearothermophilus),GH10,1HIZ,pdb,https://files.rcsb.org/download/1HIZ.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1HIZ.pdb,downloaded,,339876
+P40943,bacterial,Geobacillus stearothermophilus (Bacillus stearothermophilus),GH10,1R85,pdb,https://files.rcsb.org/download/1R85.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1R85.pdb,downloaded,,691416
+P40943,bacterial,Geobacillus stearothermophilus (Bacillus stearothermophilus),GH10,1R86,pdb,https://files.rcsb.org/download/1R86.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1R86.pdb,downloaded,,332991
+P40943,bacterial,Geobacillus stearothermophilus (Bacillus stearothermophilus),GH10,1R87,pdb,https://files.rcsb.org/download/1R87.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1R87.pdb,downloaded,,332991
+P40943,bacterial,Geobacillus stearothermophilus (Bacillus stearothermophilus),GH10,3MMD,pdb,https://files.rcsb.org/download/3MMD.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/3MMD.pdb,downloaded,,324000
+P40943,bacterial,Geobacillus stearothermophilus (Bacillus stearothermophilus),GH10,4PRW,pdb,https://files.rcsb.org/download/4PRW.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/4PRW.pdb,downloaded,,349596
+P40943,bacterial,Geobacillus stearothermophilus (Bacillus stearothermophilus),GH10,4PUD,pdb,https://files.rcsb.org/download/4PUD.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/4PUD.pdb,downloaded,,339390
+P40943,bacterial,Geobacillus stearothermophilus (Bacillus stearothermophilus),GH10,4PUE,pdb,https://files.rcsb.org/download/4PUE.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/4PUE.pdb,downloaded,,317925
+P51584,bacterial,Acetivibrio thermocellus (Hungateiclostridium thermocellum) (Clostridium thermocellum),GH10,1DYO,pdb,https://files.rcsb.org/download/1DYO.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1DYO.pdb,downloaded,,274590
+P51584,bacterial,Acetivibrio thermocellus (Hungateiclostridium thermocellum) (Clostridium thermocellum),GH10,1GKK,pdb,https://files.rcsb.org/download/1GKK.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1GKK.pdb,downloaded,,525285
+P51584,bacterial,Acetivibrio thermocellus (Hungateiclostridium thermocellum) (Clostridium thermocellum),GH10,1GKL,pdb,https://files.rcsb.org/download/1GKL.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1GKL.pdb,downloaded,,981963
+P51584,bacterial,Acetivibrio thermocellus (Hungateiclostridium thermocellum) (Clostridium thermocellum),GH10,1H6X,pdb,https://files.rcsb.org/download/1H6X.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1H6X.pdb,downloaded,,143856
+P51584,bacterial,Acetivibrio thermocellus (Hungateiclostridium thermocellum) (Clostridium thermocellum),GH10,1H6Y,pdb,https://files.rcsb.org/download/1H6Y.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1H6Y.pdb,downloaded,,267381
+P51584,bacterial,Acetivibrio thermocellus (Hungateiclostridium thermocellum) (Clostridium thermocellum),GH10,1OHZ,pdb,https://files.rcsb.org/download/1OHZ.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1OHZ.pdb,downloaded,,172692
+P51584,bacterial,Acetivibrio thermocellus (Hungateiclostridium thermocellum) (Clostridium thermocellum),GH10,1WB4,pdb,https://files.rcsb.org/download/1WB4.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1WB4.pdb,downloaded,,1010151
+P51584,bacterial,Acetivibrio thermocellus (Hungateiclostridium thermocellum) (Clostridium thermocellum),GH10,1WB5,pdb,https://files.rcsb.org/download/1WB5.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1WB5.pdb,downloaded,,975888
+P51584,bacterial,Acetivibrio thermocellus (Hungateiclostridium thermocellum) (Clostridium thermocellum),GH10,1WB6,pdb,https://files.rcsb.org/download/1WB6.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1WB6.pdb,downloaded,,997920
+P51584,bacterial,Acetivibrio thermocellus (Hungateiclostridium thermocellum) (Clostridium thermocellum),GH10,2CCL,pdb,https://files.rcsb.org/download/2CCL.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/2CCL.pdb,downloaded,,359721
+P51584,bacterial,Acetivibrio thermocellus (Hungateiclostridium thermocellum) (Clostridium thermocellum),GH10,2W5F,pdb,https://files.rcsb.org/download/2W5F.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/2W5F.pdb,downloaded,,910683
+P51584,bacterial,Acetivibrio thermocellus (Hungateiclostridium thermocellum) (Clostridium thermocellum),GH10,2WYS,pdb,https://files.rcsb.org/download/2WYS.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/2WYS.pdb,downloaded,,792585
+P51584,bacterial,Acetivibrio thermocellus (Hungateiclostridium thermocellum) (Clostridium thermocellum),GH10,2WZE,pdb,https://files.rcsb.org/download/2WZE.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/2WZE.pdb,downloaded,,1530333
+P51584,bacterial,Acetivibrio thermocellus (Hungateiclostridium thermocellum) (Clostridium thermocellum),GH10,3ZI7,pdb,https://files.rcsb.org/download/3ZI7.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/3ZI7.pdb,downloaded,,532008
+P51584,bacterial,Acetivibrio thermocellus (Hungateiclostridium thermocellum) (Clostridium thermocellum),GH10,4BAG,pdb,https://files.rcsb.org/download/4BAG.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/4BAG.pdb,downloaded,,841266
+P51584,bacterial,Acetivibrio thermocellus (Hungateiclostridium thermocellum) (Clostridium thermocellum),GH10,4H35,pdb,https://files.rcsb.org/download/4H35.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/4H35.pdb,downloaded,,833409
+P51584,bacterial,Acetivibrio thermocellus (Hungateiclostridium thermocellum) (Clostridium thermocellum),GH10,5FXM,pdb,https://files.rcsb.org/download/5FXM.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/5FXM.pdb,downloaded,,440316
+P51584,bacterial,Acetivibrio thermocellus (Hungateiclostridium thermocellum) (Clostridium thermocellum),GH10,6FJ4,pdb,https://files.rcsb.org/download/6FJ4.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/6FJ4.pdb,downloaded,,266490
+P51584,bacterial,Acetivibrio thermocellus (Hungateiclostridium thermocellum) (Clostridium thermocellum),GH10,6Y8G,pdb,https://files.rcsb.org/download/6Y8G.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/6Y8G.pdb,failed,HTTPError 404: Not Found,0
+P81536,fungal,Byssochlamys spectabilis (Paecilomyces variotii),GH11,1PVX,pdb,https://files.rcsb.org/download/1PVX.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1PVX.pdb,downloaded,,158031
+Q60037,bacterial,Thermotoga maritima (strain ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826 / MSB8),GH10,1I82,pdb,https://files.rcsb.org/download/1I82.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1I82.pdb,downloaded,,174069
+Q60037,bacterial,Thermotoga maritima (strain ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826 / MSB8),GH10,1I8A,pdb,https://files.rcsb.org/download/1I8A.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1I8A.pdb,downloaded,,173502
+Q60037,bacterial,Thermotoga maritima (strain ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826 / MSB8),GH10,1I8U,pdb,https://files.rcsb.org/download/1I8U.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1I8U.pdb,downloaded,,171072
+A5IL00,bacterial,Thermotoga petrophila (strain ATCC BAA-488 / DSM 13995 / JCM 10881 / RKU-1),GH10,3NIY,pdb,https://files.rcsb.org/download/3NIY.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/3NIY.pdb,downloaded,,552582
+A5IL00,bacterial,Thermotoga petrophila (strain ATCC BAA-488 / DSM 13995 / JCM 10881 / RKU-1),GH10,3NJ3,pdb,https://files.rcsb.org/download/3NJ3.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/3NJ3.pdb,downloaded,,527067
+B9MMA5,bacterial,Caldicellulosiruptor bescii (strain ATCC BAA-1888 / DSM 6725 / KCTC 15123 / Z-1320) (Anaerocellum thermophilum),GH10,4L4O,pdb,https://files.rcsb.org/download/4L4O.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/4L4O.pdb,downloaded,,507465
+B9MMA5,bacterial,Caldicellulosiruptor bescii (strain ATCC BAA-1888 / DSM 6725 / KCTC 15123 / Z-1320) (Anaerocellum thermophilum),GH10,4L4P,pdb,https://files.rcsb.org/download/4L4P.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/4L4P.pdb,downloaded,,513540
+B9MMA5,bacterial,Caldicellulosiruptor bescii (strain ATCC BAA-1888 / DSM 6725 / KCTC 15123 / Z-1320) (Anaerocellum thermophilum),GH10,4PMD,pdb,https://files.rcsb.org/download/4PMD.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/4PMD.pdb,downloaded,,514998
+C3VEV9,fungal,Penicillium canescens,GH10,4F8X,pdb,https://files.rcsb.org/download/4F8X.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/4F8X.pdb,downloaded,,285687
+D0QF43,fungal,Bispora sp. MEY-1,GH10,5XZO,pdb,https://files.rcsb.org/download/5XZO.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/5XZO.pdb,downloaded,,545049
+D0QF43,fungal,Bispora sp. MEY-1,GH10,5XZU,pdb,https://files.rcsb.org/download/5XZU.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/5XZU.pdb,downloaded,,1022706
+D5UH90,bacterial,Cellulomonas flavigena (strain ATCC 482 / DSM 20109 / BCRC 11376 / JCM 18109 / NBRC 3775 / NCIMB 8073 / NRS 134),GH10,5M0K,pdb,https://files.rcsb.org/download/5M0K.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/5M0K.pdb,downloaded,,419823
+E4Q2A4,bacterial,Caldicellulosiruptor owensensis (strain ATCC 700167 / DSM 13100 / OL),GH10,5Y3X,pdb,https://files.rcsb.org/download/5Y3X.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/5Y3X.pdb,downloaded,,2910006
+E4S6E9,bacterial,Caldicellulosiruptor acetigenus (strain ATCC 700853 / DSM 12137 / I77R1B) (Caldicellulosiruptor kristjanssonii),GH10,7NN3,pdb,https://files.rcsb.org/download/7NN3.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/7NN3.pdb,downloaded,,1212894
+E4S6E9,bacterial,Caldicellulosiruptor acetigenus (strain ATCC 700853 / DSM 12137 / I77R1B) (Caldicellulosiruptor kristjanssonii),GH10,7NWN,pdb,https://files.rcsb.org/download/7NWN.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/7NWN.pdb,failed,HTTPError 404: Not Found,0
+E4S6E9,bacterial,Caldicellulosiruptor acetigenus (strain ATCC 700853 / DSM 12137 / I77R1B) (Caldicellulosiruptor kristjanssonii),GH10,7NWO,pdb,https://files.rcsb.org/download/7NWO.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/7NWO.pdb,failed,HTTPError 404: Not Found,0
+E4S6E9,bacterial,Caldicellulosiruptor acetigenus (strain ATCC 700853 / DSM 12137 / I77R1B) (Caldicellulosiruptor kristjanssonii),GH10,7NWP,pdb,https://files.rcsb.org/download/7NWP.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/7NWP.pdb,failed,HTTPError 404: Not Found,0
+E4S6E9,bacterial,Caldicellulosiruptor acetigenus (strain ATCC 700853 / DSM 12137 / I77R1B) (Caldicellulosiruptor kristjanssonii),GH10,7NWQ,pdb,https://files.rcsb.org/download/7NWQ.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/7NWQ.pdb,failed,HTTPError 404: Not Found,0
+O30700,bacterial,Bacillus sp. NG-27,GH10,2F8Q,pdb,https://files.rcsb.org/download/2F8Q.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/2F8Q.pdb,downloaded,,565947
+O30700,bacterial,Bacillus sp. NG-27,GH10,2FGL,pdb,https://files.rcsb.org/download/2FGL.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/2FGL.pdb,downloaded,,569430
+O30700,bacterial,Bacillus sp. NG-27,GH10,4QCE,pdb,https://files.rcsb.org/download/4QCE.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/4QCE.pdb,downloaded,,1025622
+O30700,bacterial,Bacillus sp. NG-27,GH10,4QCF,pdb,https://files.rcsb.org/download/4QCF.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/4QCF.pdb,downloaded,,527391
+O30700,bacterial,Bacillus sp. NG-27,GH10,4QDM,pdb,https://files.rcsb.org/download/4QDM.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/4QDM.pdb,downloaded,,1042389
+O30700,bacterial,Bacillus sp. NG-27,GH10,5EB8,pdb,https://files.rcsb.org/download/5EB8.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/5EB8.pdb,downloaded,,1024650
+O30700,bacterial,Bacillus sp. NG-27,GH10,5EBA,pdb,https://files.rcsb.org/download/5EBA.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/5EBA.pdb,downloaded,,519777
+O30700,bacterial,Bacillus sp. NG-27,GH10,5EFD,pdb,https://files.rcsb.org/download/5EFD.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/5EFD.pdb,downloaded,,1045629
+O30700,bacterial,Bacillus sp. NG-27,GH10,5EFF,pdb,https://files.rcsb.org/download/5EFF.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/5EFF.pdb,downloaded,,995895
+O30700,bacterial,Bacillus sp. NG-27,GH10,5XC0,pdb,https://files.rcsb.org/download/5XC0.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/5XC0.pdb,downloaded,,995976
+O30700,bacterial,Bacillus sp. NG-27,GH10,5XC1,pdb,https://files.rcsb.org/download/5XC1.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/5XC1.pdb,downloaded,,1024407
+O52780,bacterial,Acetivibrio thermocellus (Hungateiclostridium thermocellum) (Clostridium thermocellum),GH11,1GMM,pdb,https://files.rcsb.org/download/1GMM.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1GMM.pdb,downloaded,,131787
+O52780,bacterial,Acetivibrio thermocellus (Hungateiclostridium thermocellum) (Clostridium thermocellum),GH11,1UXX,pdb,https://files.rcsb.org/download/1UXX.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1UXX.pdb,downloaded,,125064
+O68541,bacterial,Cellvibrio mixtus,GH10,1UQY,pdb,https://files.rcsb.org/download/1UQY.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1UQY.pdb,downloaded,,328941
+O68541,bacterial,Cellvibrio mixtus,GH10,1UQZ,pdb,https://files.rcsb.org/download/1UQZ.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1UQZ.pdb,downloaded,,335259
+O68541,bacterial,Cellvibrio mixtus,GH10,1UR1,pdb,https://files.rcsb.org/download/1UR1.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1UR1.pdb,downloaded,,330075
+O68541,bacterial,Cellvibrio mixtus,GH10,1UR2,pdb,https://files.rcsb.org/download/1UR2.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1UR2.pdb,downloaded,,334206
+O68541,bacterial,Cellvibrio mixtus,GH10,2CNC,pdb,https://files.rcsb.org/download/2CNC.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/2CNC.pdb,downloaded,,308772
+O87119,bacterial,Acetivibrio thermocellus (Hungateiclostridium thermocellum) (Clostridium thermocellum),GH11,2C71,pdb,https://files.rcsb.org/download/2C71.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/2C71.pdb,downloaded,,382644
+O87119,bacterial,Acetivibrio thermocellus (Hungateiclostridium thermocellum) (Clostridium thermocellum),GH11,2C79,pdb,https://files.rcsb.org/download/2C79.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/2C79.pdb,downloaded,,348543
+P48793,fungal,Trichoderma harzianum (Hypocrea lixii),GH11,1XND,pdb,https://files.rcsb.org/download/1XND.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1XND.pdb,downloaded,,155034
+P77853,bacterial,Dictyoglomus thermophilum,GH11,1F5J,pdb,https://files.rcsb.org/download/1F5J.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1F5J.pdb,downloaded,,315090
+P96988,bacterial,Rhodothermus marinus (Rhodothermus obamensis),GH10,1K42,pdb,https://files.rcsb.org/download/1K42.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1K42.pdb,downloaded,,2448063
+P96988,bacterial,Rhodothermus marinus (Rhodothermus obamensis),GH10,1K45,pdb,https://files.rcsb.org/download/1K45.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1K45.pdb,downloaded,,218943
+Q09LY9,bacterial,Geobacillus stearothermophilus (Bacillus stearothermophilus),GH10,1N82,pdb,https://files.rcsb.org/download/1N82.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1N82.pdb,downloaded,,1044738
+Q09LY9,bacterial,Geobacillus stearothermophilus (Bacillus stearothermophilus),GH10,2Q8X,pdb,https://files.rcsb.org/download/2Q8X.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/2Q8X.pdb,downloaded,,1054377
+Q09LY9,bacterial,Geobacillus stearothermophilus (Bacillus stearothermophilus),GH10,3MS8,pdb,https://files.rcsb.org/download/3MS8.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/3MS8.pdb,downloaded,,536058
+Q09LY9,bacterial,Geobacillus stearothermophilus (Bacillus stearothermophilus),GH10,3MSD,pdb,https://files.rcsb.org/download/3MSD.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/3MSD.pdb,downloaded,,551529
+Q09LY9,bacterial,Geobacillus stearothermophilus (Bacillus stearothermophilus),GH10,3MSG,pdb,https://files.rcsb.org/download/3MSG.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/3MSG.pdb,downloaded,,555660
+Q09LY9,bacterial,Geobacillus stearothermophilus (Bacillus stearothermophilus),GH10,3MUA,pdb,https://files.rcsb.org/download/3MUA.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/3MUA.pdb,downloaded,,555255
+Q09LY9,bacterial,Geobacillus stearothermophilus (Bacillus stearothermophilus),GH10,3MUI,pdb,https://files.rcsb.org/download/3MUI.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/3MUI.pdb,downloaded,,535896
+Q59922,bacterial,Streptomyces halstedii,GH10,1NQ6,pdb,https://files.rcsb.org/download/1NQ6.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1NQ6.pdb,downloaded,,249642
+Q59962,bacterial,Streptomyces sp. S38,GH11,1HIX,pdb,https://files.rcsb.org/download/1HIX.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1HIX.pdb,downloaded,,285039
+Q6VAY1,fungal,Acidomyces acidophilus,GH11,3M4F,pdb,https://files.rcsb.org/download/3M4F.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/3M4F.pdb,downloaded,,570483
+Q7SI98,bacterial,Streptomyces olivaceoviridis (Streptomyces corchorusii),GH10,1ISV,pdb,https://files.rcsb.org/download/1ISV.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1ISV.pdb,downloaded,,657477
+Q7SI98,bacterial,Streptomyces olivaceoviridis (Streptomyces corchorusii),GH10,1ISW,pdb,https://files.rcsb.org/download/1ISW.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1ISW.pdb,downloaded,,664929
+Q7SI98,bacterial,Streptomyces olivaceoviridis (Streptomyces corchorusii),GH10,1ISX,pdb,https://files.rcsb.org/download/1ISX.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1ISX.pdb,downloaded,,675054
+Q7SI98,bacterial,Streptomyces olivaceoviridis (Streptomyces corchorusii),GH10,1ISY,pdb,https://files.rcsb.org/download/1ISY.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1ISY.pdb,downloaded,,641358
+Q7SI98,bacterial,Streptomyces olivaceoviridis (Streptomyces corchorusii),GH10,1ISZ,pdb,https://files.rcsb.org/download/1ISZ.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1ISZ.pdb,downloaded,,607743
+Q7SI98,bacterial,Streptomyces olivaceoviridis (Streptomyces corchorusii),GH10,1IT0,pdb,https://files.rcsb.org/download/1IT0.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1IT0.pdb,downloaded,,613008
+Q7SI98,bacterial,Streptomyces olivaceoviridis (Streptomyces corchorusii),GH10,1V6U,pdb,https://files.rcsb.org/download/1V6U.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1V6U.pdb,downloaded,,656343
+Q7SI98,bacterial,Streptomyces olivaceoviridis (Streptomyces corchorusii),GH10,1V6V,pdb,https://files.rcsb.org/download/1V6V.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1V6V.pdb,downloaded,,687366
+Q7SI98,bacterial,Streptomyces olivaceoviridis (Streptomyces corchorusii),GH10,1V6W,pdb,https://files.rcsb.org/download/1V6W.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1V6W.pdb,downloaded,,670194
+Q7SI98,bacterial,Streptomyces olivaceoviridis (Streptomyces corchorusii),GH10,1V6X,pdb,https://files.rcsb.org/download/1V6X.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1V6X.pdb,downloaded,,671976
+Q7SI98,bacterial,Streptomyces olivaceoviridis (Streptomyces corchorusii),GH10,1V6Y,pdb,https://files.rcsb.org/download/1V6Y.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1V6Y.pdb,downloaded,,248832
+Q7SI98,bacterial,Streptomyces olivaceoviridis (Streptomyces corchorusii),GH10,1XYF,pdb,https://files.rcsb.org/download/1XYF.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1XYF.pdb,downloaded,,604584
+Q7SI98,bacterial,Streptomyces olivaceoviridis (Streptomyces corchorusii),GH10,2D1Z,pdb,https://files.rcsb.org/download/2D1Z.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/2D1Z.pdb,downloaded,,664362
+Q7SI98,bacterial,Streptomyces olivaceoviridis (Streptomyces corchorusii),GH10,2D20,pdb,https://files.rcsb.org/download/2D20.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/2D20.pdb,downloaded,,656343
+Q7SI98,bacterial,Streptomyces olivaceoviridis (Streptomyces corchorusii),GH10,2D22,pdb,https://files.rcsb.org/download/2D22.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/2D22.pdb,downloaded,,663633
+Q7SI98,bacterial,Streptomyces olivaceoviridis (Streptomyces corchorusii),GH10,2D23,pdb,https://files.rcsb.org/download/2D23.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/2D23.pdb,downloaded,,649134
+Q7SI98,bacterial,Streptomyces olivaceoviridis (Streptomyces corchorusii),GH10,2D24,pdb,https://files.rcsb.org/download/2D24.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/2D24.pdb,downloaded,,662337
+Q7SI98,bacterial,Streptomyces olivaceoviridis (Streptomyces corchorusii),GH10,2G3I,pdb,https://files.rcsb.org/download/2G3I.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/2G3I.pdb,downloaded,,254259
+Q7SI98,bacterial,Streptomyces olivaceoviridis (Streptomyces corchorusii),GH10,2G3J,pdb,https://files.rcsb.org/download/2G3J.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/2G3J.pdb,downloaded,,242595
+Q7SI98,bacterial,Streptomyces olivaceoviridis (Streptomyces corchorusii),GH10,2G4F,pdb,https://files.rcsb.org/download/2G4F.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/2G4F.pdb,downloaded,,431649
+Q7SI98,bacterial,Streptomyces olivaceoviridis (Streptomyces corchorusii),GH10,5GQD,pdb,https://files.rcsb.org/download/5GQD.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/5GQD.pdb,downloaded,,667845
+Q7SI98,bacterial,Streptomyces olivaceoviridis (Streptomyces corchorusii),GH10,5GQE,pdb,https://files.rcsb.org/download/5GQE.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/5GQE.pdb,downloaded,,670437
+Q7SID8,bacterial,Bacillus subtilis,GH11,1IGO,pdb,https://files.rcsb.org/download/1IGO.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1IGO.pdb,downloaded,,298242
+Q7WTN6,bacterial,Rhodothermus marinus (Rhodothermus obamensis),GH10,2Y64,pdb,https://files.rcsb.org/download/2Y64.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/2Y64.pdb,downloaded,,304398
+Q7WTN6,bacterial,Rhodothermus marinus (Rhodothermus obamensis),GH10,2Y6G,pdb,https://files.rcsb.org/download/2Y6G.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/2Y6G.pdb,downloaded,,303993
+Q7WTN6,bacterial,Rhodothermus marinus (Rhodothermus obamensis),GH10,2Y6H,pdb,https://files.rcsb.org/download/2Y6H.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/2Y6H.pdb,downloaded,,304722
+Q7WTN6,bacterial,Rhodothermus marinus (Rhodothermus obamensis),GH10,2Y6J,pdb,https://files.rcsb.org/download/2Y6J.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/2Y6J.pdb,downloaded,,155601
+Q7WTN6,bacterial,Rhodothermus marinus (Rhodothermus obamensis),GH10,2Y6K,pdb,https://files.rcsb.org/download/2Y6K.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/2Y6K.pdb,downloaded,,298080
+Q7WTN6,bacterial,Rhodothermus marinus (Rhodothermus obamensis),GH10,2Y6L,pdb,https://files.rcsb.org/download/2Y6L.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/2Y6L.pdb,downloaded,,172125
+Q7WTN6,bacterial,Rhodothermus marinus (Rhodothermus obamensis),GH10,3JXS,pdb,https://files.rcsb.org/download/3JXS.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/3JXS.pdb,downloaded,,441774
+Q7WTN6,bacterial,Rhodothermus marinus (Rhodothermus obamensis),GH10,5DPN,pdb,https://files.rcsb.org/download/5DPN.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/5DPN.pdb,downloaded,,306342
+Q8GMV7,bacterial,Thermopolyspora flexuosa,GH11,1M4W,pdb,https://files.rcsb.org/download/1M4W.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1M4W.pdb,downloaded,,177552
+Q8GMV7,bacterial,Thermopolyspora flexuosa,GH11,3B5L,pdb,https://files.rcsb.org/download/3B5L.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/3B5L.pdb,downloaded,,172044
+Q8GMV7,bacterial,Thermopolyspora flexuosa,GH11,3MF6,pdb,https://files.rcsb.org/download/3MF6.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/3MF6.pdb,downloaded,,322947
+Q8GMV7,bacterial,Thermopolyspora flexuosa,GH11,3MF9,pdb,https://files.rcsb.org/download/3MF9.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/3MF9.pdb,downloaded,,325134
+Q8GMV7,bacterial,Thermopolyspora flexuosa,GH11,3MFA,pdb,https://files.rcsb.org/download/3MFA.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/3MFA.pdb,downloaded,,314280
+Q8GMV7,bacterial,Thermopolyspora flexuosa,GH11,3MFC,pdb,https://files.rcsb.org/download/3MFC.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/3MFC.pdb,downloaded,,321003
+Q8J1V6,fungal,Thermochaetoides thermophila,GH11,1H1A,pdb,https://files.rcsb.org/download/1H1A.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1H1A.pdb,downloaded,,336960
+Q8J1V6,fungal,Thermochaetoides thermophila,GH11,1XNK,pdb,https://files.rcsb.org/download/1XNK.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1XNK.pdb,downloaded,,328374
+Q9RC94,bacterial,Bacillus sp. 41M-1,GH11,2DCJ,pdb,https://files.rcsb.org/download/2DCJ.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/2DCJ.pdb,downloaded,,571617
+Q9RC94,bacterial,Bacillus sp. 41M-1,GH11,2DCK,pdb,https://files.rcsb.org/download/2DCK.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/2DCK.pdb,downloaded,,280341
+Q9RC94,bacterial,Bacillus sp. 41M-1,GH11,6KJL,pdb,https://files.rcsb.org/download/6KJL.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/6KJL.pdb,downloaded,,526581
+Q9RC94,bacterial,Bacillus sp. 41M-1,GH11,6KKA,pdb,https://files.rcsb.org/download/6KKA.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/6KKA.pdb,downloaded,,521802
+Q9WXS5,bacterial,Thermotoga maritima (strain ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826 / MSB8),GH10,1VBR,pdb,https://files.rcsb.org/download/1VBR.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1VBR.pdb,downloaded,,536382
+Q9WXS5,bacterial,Thermotoga maritima (strain ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826 / MSB8),GH10,1VBU,pdb,https://files.rcsb.org/download/1VBU.pdb,/home/ubuntu/xylanase-thesis/data/structures/pdb/1VBU.pdb,downloaded,,533628

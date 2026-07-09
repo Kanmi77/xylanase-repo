@@ -23,7 +23,7 @@ MASTER_FILE = (
     BASE_DIR
     / "data"
     / "curated"
-    / "xylanase_master_gh10_gh11_frozen_thesis_with_refseq_brenda.csv"
+    / "master_brenda.csv"
 )
 
 STRUCTURE_FILE = (

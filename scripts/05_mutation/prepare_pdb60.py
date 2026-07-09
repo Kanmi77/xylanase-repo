@@ -26,7 +26,7 @@ VALID_AA = set("ACDEFGHIKLMNPQRSTVWY")
 def read_csv_first(paths):
     for f in paths:
         p = Path(f)
-        if p.exists() and "frozen" not in str(p).lower():
+        if p.exists() and "archived" not in str(p).lower():
             return p, pd.read_csv(p, low_memory=False)
     raise FileNotFoundError("None of the expected PDB structured subset files was found.")
 
