@@ -1,0 +1,26 @@
+name: xylanase-thesis
+
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  - python=3.10
+  - snakemake=7.32.4
+
+  # Python libraries used by workflow scripts
+  - pandas
+  - numpy
+  - scikit-learn
+  - biopython
+  - pyyaml
+  - requests
+
+  # Sequence analysis tools
+  - mafft
+  - fasttree
+
+  # Docking and receptor preparation tools
+  - meeko
+  - vina
