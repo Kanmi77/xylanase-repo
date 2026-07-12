@@ -1,1 +1,0 @@
-source,primary_id,uniprot_accession,refseq_acc,organism_type,organism,xref_cazy,has_cazy_xref,cazy_status,gh_family,sequence,clean_sequence,ambiguous_aa_count,removed_nonletter_count,invalid_letters_replaced_by_x,sequence_length_clean,exclusion_reason

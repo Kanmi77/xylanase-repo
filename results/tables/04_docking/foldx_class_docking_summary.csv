@@ -1,4 +1,0 @@
-foldx_mutation_class,mutations,mean_docking_delta,median_docking_delta,sd_docking_delta,min_docking_delta,max_docking_delta
-stabilising,471,0.10928980891719743,0.0,2.292635497836164,-2.2590000000000003,49.4175
-neutral,1179,0.001001696352841394,0.0,0.04983527616999811,-0.637,0.9740000000000006
-destabilising,1304,0.0,0.0,0.0,0.0,0.0

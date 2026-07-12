@@ -1,4 +1,0 @@
-rank,accession,mutation,organism,gh_family,foldx_score,docking_score,ml_score,integrated_score
-1,D5UGW9,LA23A,Cellulomonas flavigena (strain ATCC 482 / DSM 20109 / BCRC 11376 / JCM 18109 / NBRC 3775 / NCIMB 8073 / NRS 134),GH10,1.0,1.0,0.97,0.7454999999999999
-2,Q60041,NA33G,Thermotoga neapolitana,GH10,0.9353116666666668,1.0,0.97,0.7228590833333333
-3,Q9HGX1,DA11K,Agaricus bisporus (White button mushroom),GH10,1.0,0.9042499999999998,0.97,0.7215624999999999

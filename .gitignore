@@ -1,100 +1,59 @@
-# Python
-__pycache__/
-*.pyc
-.ipynb_checkpoints/
-
-# Logs and temporary files
-*.log
-*.tmp
-*.bak
-.DS_Store
-
-# Conda / environment caches
-.conda/
-.env/
-.venv/
-
-# Large molecular dynamics files
-*.xtc
-*.trr
-*.edr
-*.cpt
-*.tpr
-*.gro
-*.xvg
-*.xpm
-*.pdb_prev
-mdout.mdp
-
-# Large structure and docking intermediates
-*.pdbqt
-*.dlg
-*.map
-*.mol2
-*.sdf
-
-# FoldX licensed executable/database
-foldx
-foldx*
-FoldX
-FoldX*
-rotabase.txt
-
-# MODELLER temporary files
-*.D000*
-*.B999*
-*.ini
-*.rsr
-*.sch
-*.V999*
-.snakemake/
-logs/snakemake/*.log
-
-# Snakemake/runtime files
+# Snakemake execution state
 .snakemake/
 logs/
+results/
 
-# Downloaded/generated raw data
-data/raw/
+# Generated workflow data
+data/curated/
+data/sequence/
+data/sequences/
+data/processed/
 data/structures/
+data/external/
 
-# Heavy FoldX generated files
-results/04_foldx/work/
-results/04_foldx/repaired_structures/
+# User-supplied raw inputs
+data/raw/*
+!data/raw/.gitkeep
 
-# Heavy docking generated files
-results/05_docking/receptors/
-results/05_docking/vina_outputs/
+# Reference structures supplied by the user
+data/reference_structures/GH10/*
+data/reference_structures/GH11/*
+!data/reference_structures/GH10/.gitkeep
+!data/reference_structures/GH11/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Conda and virtual environments
+.conda/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors and operating systems
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
 
 # Temporary files
-None
+*.tmp
+*.temp
+*.bak
 
-# Extra local workflow/material folders not required for main Snakemake workflow
-results/workflow/
-scripts/workflow/
-docs/review/
-results/source_tables/
-
-# Snakemake test-mode generated outputs
-results/01_curation/
-results/02_sequence/
-results/03_structure/
-results/04_foldx/
-results/05_docking/
-results/06_ml/
-results/08_integration/
-results/workflow_audit/
-EOFcat >> .gitignore <<'EOF'
-
-# Snakemake test-mode generated outputs
-results/01_curation/
-results/02_sequence/
-results/03_structure/
-results/04_foldx/
-results/05_docking/
-results/06_ml/
-results/08_integration/
-results/workflow_audit/
+# Credentials
+.env
+*.key
+*.pem
 
 # Snakemake test-mode generated outputs
 results/01_curation/
