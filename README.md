@@ -1,57 +1,150 @@
-# Xylanase Structural Thermostability Assessment
+# Xylanase Structural Thermostability Workflow
 
-This repository contains the source code, workflow configuration files, and supplementary result tables associated with the thesis:
+This repository contains the reproducible Snakemake workflow developed for the thesis:
 
 **In Silico Structural Thermostability Assessment of Bacterial and Fungal Thermostable Xylanases through Bioinformatics and Machine Learning Predictions**
 
-## Overview
+The workflow supports in-silico thermostability assessment of bacterial and fungal GH10/GH11 xylanases using sequence analysis, structural feature extraction, FoldX stability assessment, mutation screening, molecular docking, machine learning, and integrated candidate ranking.
 
-This project investigates bacterial and fungal GH10 and GH11 xylanases using a fully in-silico bioinformatics workflow. The analysis includes data curation, sequence analysis, structural feature extraction, FoldX stability assessment, mutation screening, molecular docking, machine learning, and integrated candidate prioritisation.
+The final thesis result tables, full datasets, figures, visualizations, and supplementary materials are maintained separately in the results repository:
+
+https://github.com/Kanmi77/xylanase-thermostability-results
+
+## Repository Purpose
+
+This repository is intended for the computational workflow, scripts, configuration files, and environment definition required to reproduce or adapt the xylanase thermostability analysis.
+
+It contains:
+
+- Snakemake workflow files
+- modular workflow rules
+- Python and shell scripts used by the workflow
+- workflow configuration files
+- Conda environment definition
+- tool-path configuration files
+- documentation for running the workflow
+
+Generated result outputs, large runtime files, raw downloads, FoldX working directories, and docking intermediate files are excluded from version control.
+
+## Workflow Overview
+
+The workflow is organized into the following analysis stages:
+
+1. UniProt xylanase record retrieval and dataset curation
+2. sequence-feature calculation
+3. multiple sequence alignment using MAFFT
+4. phylogenetic reconstruction using FastTree
+5. conserved-position analysis
+6. structure inventory and structural-feature extraction
+7. FoldX wild-type stability calculation
+8. FoldX mutation screening
+9. receptor preparation and AutoDock Vina docking
+10. machine-learning analysis
+11. integrated candidate ranking
 
 ## Repository Structure
 
-| Folder | Description |
+| Folder/File | Description |
 |---|---|
-| `config/` | Configuration files for the Snakemake workflow |
+| `config/` | Workflow configuration files |
+| `environments/` | Conda environment file for active workflow dependencies |
 | `workflow/` | Main Snakemake workflow files |
 | `workflow/rules/` | Modular Snakemake rule files |
-| `scripts/` | Python and shell scripts used by the workflow |
-| `results/tables/` | Main thesis result tables |
-| `results/source_tables/` | Supporting source result tables |
-| `Supplementary Material/` | Supplementary thesis data arranged for external access |
+| `scripts/` | Python and shell scripts executed by the workflow |
+| `data/` | Lightweight input templates or manually supplied input files |
+| `docs/` | Workflow notes and supporting documentation |
+| `.gitignore` | Excludes generated outputs, logs, raw downloads, and runtime files |
 
-## Supplementary Material
+## Tools, Packages & Versions
 
-The supplementary material associated with this thesis is available in the `Supplementary Material` folder of this repository.
+| Tool / Package     | Version / Configuration | Role / Purpose                                      |
+|--------------------|-------------------------|-----------------------------------------------------|
+| **Python**         | 3.10                    | Main scripting language                             |
+| **Snakemake**      | 7.32.4                  | Workflow management                                 |
+| **pandas**         | Conda-resolved          | Table processing and result parsing                 |
+| **numpy**          | Conda-resolved          | Numerical processing                                |
+| **scikit-learn**   | Conda-resolved          | Machine-learning models and evaluation              |
+| **Biopython**      | Conda-resolved          | Sequence parsing and feature handling               |
+| **PyYAML**         | Conda-resolved          | Reading workflow configuration files                |
+| **requests**       | Conda-resolved          | UniProt / API data retrieval                        |
+| **MAFFT**          | Conda-resolved          | Multiple sequence alignment                         |
+| **FastTree**       | Conda-resolved          | Phylogenetic tree reconstruction                    |
+| **Meeko**          | Conda-resolved          | Receptor preparation for docking                    |
+| **AutoDock Vina**  | 1.2.5                   | Molecular docking                                   |
+| **FoldX**          | FoldX4                  | Protein stability calculation and mutation screening |
 
-It includes the main thesis result tables and supporting source tables used for the downstream analyses presented in this study.
 
-The main result tables are accessible here:
+### Prerequisites
 
-[Main_Thesis_Result_Tables](Supplementary%20Material/Main_Thesis_Result_Tables)
+- Conda / Miniconda / Mamba
+- Git
+- FoldX Suite (external, license required — see Configuration below)
 
-The supporting source result tables are accessible here:
+### 1. Create and activate the Conda environment
 
-[Source_Result_Tables](Supplementary%20Material/Source_Result_Tables)
+```bash
+conda env create -f environments/thesis.yml
+conda activate xylanase-thesis
+```
 
-## Code and Data Availability
+### 2. Configure the workflow
 
-The source code for the xylanase structural thermostability assessment workflow developed as part of this thesis is available in this GitHub repository.
+Before running, edit the main configuration file:
 
-The repository includes source code, configuration files, Snakemake workflow files, supplementary result tables, and documentation required to understand and reproduce the computational workflow.
+```bash
+config/workflow_config.yaml
+```
 
-Main workflow files:
+**Required manual configuration** (critical paths):
 
-- `workflow/Snakefile`
-- `workflow/Snakefile.full`
-- `workflow/rules/`
-- `scripts/`
-- `config/workflow_config.yaml`
+- FoldX executable path
+- FoldX `rotabase.txt` path
+- xylobiose ligand PDBQT path
+- xylotriose ligand PDBQT path
+- Output base directories
+- Test-mode settings (optional)
 
-## Workflow Check
+### 3. Dry-run validation (recommended first step)
 
-After setting up the required tools and paths, the workflow can be checked with:
-
+```bash
 snakemake -s workflow/Snakefile -n -p --cores 4
+```
 
-Large generated runtime files, downloaded PDB structures, raw downloads, FoldX working directories, and Vina intermediate receptor/output files are excluded from version control.
+This builds the directed acyclic graph (DAG) and checks for configuration or rule errors without executing any jobs.
+
+### 4. Run the workflow
+
+```bash
+# Standard workflow run
+snakemake -s workflow/Snakefile -p --cores 4
+
+# Full workflow definition (all rules)
+snakemake -s workflow/Snakefile.full -p --cores 4
+```
+
+> **Tip**: The `-p` flag prints the shell commands that will be executed. You can increase `--cores` according to your available resources.
+
+## External Tools
+
+### FoldX
+FoldX is **not** included in the Conda environment. It must be obtained separately under the FoldX Suite license.
+
+After installation, provide the paths to the FoldX executable and `rotabase.txt` in `config/workflow_config.yaml`.
+
+### GROMACS
+Molecular dynamics simulations were performed outside this Snakemake workflow and are not part of the active pipeline.
+
+## Output Policy & Git Tracking
+
+All generated outputs are intentionally **excluded from Git version control** via `.gitignore`.
+
+This includes:
+- Snakemake runtime folders (`.snakemake/`)
+- Log files and runtime reports
+- Raw downloads and fetched PDB structures
+- FoldX working directories and repaired structures
+- Docking receptor files and AutoDock Vina intermediate outputs
+- Test-mode result folders
+- Any large intermediate or final result files
+
+Only source code, Snakefiles, modular rules, configuration templates, scripts, and documentation are tracked in this repository.
