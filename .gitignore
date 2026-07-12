@@ -64,3 +64,10 @@ results/05_docking/
 results/06_ml/
 results/08_integration/
 results/workflow_audit/
+
+# Result and supplementary outputs are stored in the separate results repository
+results/
+Supplementary Material/
+
+# Runtime logs
+logs/
